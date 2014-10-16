@@ -1,0 +1,38 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apparmor.d/libvirt/TEMPLATE 1.2.7-5~ libvirt-daemon-system -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apparmor.d/libvirt/TEMPLATE 1.2.7-5~ libvirt-bin -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/polkit-1/rules.d/60-libvirt.rules 1.2.9-3~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apparmor.d/libvirtd/TEMPLATE 1.2.7-5~ libvirt-daemon-system -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apparmor.d/libvirtd/TEMPLATE 1.2.7-5~ libvirt-bin -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/init.d/libvirt-bin /etc/init.d/libvirtd 1.2.6-1~ libvirt-bin -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/default/libvirt-bin /etc/default/libvirtd 1.2.6-1~ libvirt-bin -- "$@"
+# End automatically added section
+# Automatically added by dh_systemd_start
+if [ -d /run/systemd/system ] && [ "$1" = remove ]; then
+	deb-systemd-invoke stop virtlockd.socket virtlockd.service >/dev/null
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/libvirt-guests" ] && [ "$1" = remove ]; then
+	invoke-rc.d libvirt-guests stop || exit $?
+fi
+# End automatically added section
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/libvirtd" ] && [ "$1" = remove ]; then
+	invoke-rc.d libvirtd stop || exit $?
+fi
+# End automatically added section

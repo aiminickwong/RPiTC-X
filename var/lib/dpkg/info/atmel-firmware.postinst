@@ -1,0 +1,21 @@
+#!/bin/sh 
+set -e
+
+# Remove files from old locations which may have been installed by
+# the original tarball
+
+if test -f /etc/hotplug.d/firmware/atmel.hotplug; then
+    echo "Removing old script /etc/hotplug.d/firmware/atmel.hotplug"
+    rm -f /etc/hotplug.d/firmware/atmel.hotplug
+fi
+
+if test -d /usr/share/firmware/atmel_at76c50x; then
+    echo "Removing old directory /usr/share/firmware/atmel_at76c50x";
+    rm -rf /usr/share/firmware/atmel_at76c50x
+fi
+
+# Kick the cardmgr so it reads the new PCMCIA database entries.
+
+if [ -f /var/run/cardmgr.pid ]; then
+    kill -HUP `cat /var/run/cardmgr.pid`
+fi

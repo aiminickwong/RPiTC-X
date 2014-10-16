@@ -1,0 +1,2 @@
+deb http://armv6kz.armtc.net/ sid main
+deb http://ftp.de.debian.org/debian sid main contrib non-free

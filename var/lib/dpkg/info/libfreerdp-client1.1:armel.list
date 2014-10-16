@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libfreerdp-client.so.1.1.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libfreerdp-client1.1
+/usr/share/doc/libfreerdp-client1.1/buildinfo_armel.gz
+/usr/share/doc/libfreerdp-client1.1/changelog.Debian.gz
+/usr/share/doc/libfreerdp-client1.1/README
+/usr/share/doc/libfreerdp-client1.1/copyright
+/usr/share/doc/libfreerdp-client1.1/changelog.gz
+/usr/lib/arm-linux-gnueabi/libfreerdp-client.so.1.1

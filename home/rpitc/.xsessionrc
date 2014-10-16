@@ -1,0 +1,10 @@
+# Disable Power off screen:
+xset s off
+xset -dpms
+####### Keyboard setup:
+setxkbmap us
+#setxkbmap gb
+#setxkbmap de
+#setxkbmap es
+#setxkbmap uk
+#setxkbmap fr

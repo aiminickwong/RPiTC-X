@@ -1,0 +1,9 @@
+auto
+/usr/bin/pack200
+pack200.1.gz
+/usr/share/man/man1/pack200.1.gz
+
+/usr/lib/jvm/java-7-openjdk-armel/jre/bin/pack200
+1063
+/usr/lib/jvm/java-7-openjdk-armel/jre/man/man1/pack200.1.gz
+

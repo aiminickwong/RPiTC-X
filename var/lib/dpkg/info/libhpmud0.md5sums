@@ -1,0 +1,5 @@
+9c76ecf650d0a93effc833d0345cb3de  usr/lib/libhpip.so.0.0.1
+572d763d869879a88b66ab71d685a918  usr/lib/libhpmud.so.0.0.6
+9ac14ecca1d332632310d526c82c66f8  usr/share/doc/libhpmud0/changelog.Debian.gz
+f2c5b76bd2444d3b5f726d5a5d4dff23  usr/share/doc/libhpmud0/copyright
+fadcc145d26c87da5a5d494b91397415  usr/share/lintian/overrides/libhpmud0

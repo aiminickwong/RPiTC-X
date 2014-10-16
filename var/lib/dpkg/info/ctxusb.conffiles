@@ -1,0 +1,3 @@
+/opt/Citrix/ICAClient/usb.conf
+/etc/init.d/ctxusbd
+/etc/udev/rules.d/85-ica-usb.rules

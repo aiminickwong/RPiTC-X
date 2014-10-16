@@ -1,0 +1,45 @@
+name=java-7-openjdk-armel
+alias=java-1.7.0-openjdk-armel
+priority=1063
+section=main
+
+hl rmid /usr/lib/jvm/java-7-openjdk-armel/jre/bin/rmid
+hl java /usr/lib/jvm/java-7-openjdk-armel/jre/bin/java
+hl keytool /usr/lib/jvm/java-7-openjdk-armel/jre/bin/keytool
+hl pack200 /usr/lib/jvm/java-7-openjdk-armel/jre/bin/pack200
+hl rmiregistry /usr/lib/jvm/java-7-openjdk-armel/jre/bin/rmiregistry
+hl unpack200 /usr/lib/jvm/java-7-openjdk-armel/jre/bin/unpack200
+hl orbd /usr/lib/jvm/java-7-openjdk-armel/jre/bin/orbd
+hl servertool /usr/lib/jvm/java-7-openjdk-armel/jre/bin/servertool
+hl tnameserv /usr/lib/jvm/java-7-openjdk-armel/jre/bin/tnameserv
+hl jexec /usr/lib/jvm/java-7-openjdk-armel/jre/lib/jexec
+jre policytool /usr/lib/jvm/java-7-openjdk-armel/jre/bin/policytool
+jdk idlj /usr/lib/jvm/java-7-openjdk-armel/bin/idlj
+jdk wsimport /usr/lib/jvm/java-7-openjdk-armel/bin/wsimport
+jdk rmic /usr/lib/jvm/java-7-openjdk-armel/bin/rmic
+jdk jinfo /usr/lib/jvm/java-7-openjdk-armel/bin/jinfo
+jdk jsadebugd /usr/lib/jvm/java-7-openjdk-armel/bin/jsadebugd
+jdk native2ascii /usr/lib/jvm/java-7-openjdk-armel/bin/native2ascii
+jdk jstat /usr/lib/jvm/java-7-openjdk-armel/bin/jstat
+jdk javadoc /usr/lib/jvm/java-7-openjdk-armel/bin/javadoc
+jdk javah /usr/lib/jvm/java-7-openjdk-armel/bin/javah
+jdk jstack /usr/lib/jvm/java-7-openjdk-armel/bin/jstack
+jdk jrunscript /usr/lib/jvm/java-7-openjdk-armel/bin/jrunscript
+jdk javac /usr/lib/jvm/java-7-openjdk-armel/bin/javac
+jdk javap /usr/lib/jvm/java-7-openjdk-armel/bin/javap
+jdk jconsole /usr/lib/jvm/java-7-openjdk-armel/bin/jconsole
+jdk jar /usr/lib/jvm/java-7-openjdk-armel/bin/jar
+jdk extcheck /usr/lib/jvm/java-7-openjdk-armel/bin/extcheck
+jdk schemagen /usr/lib/jvm/java-7-openjdk-armel/bin/schemagen
+jdk jps /usr/lib/jvm/java-7-openjdk-armel/bin/jps
+jdk xjc /usr/lib/jvm/java-7-openjdk-armel/bin/xjc
+jdk jmap /usr/lib/jvm/java-7-openjdk-armel/bin/jmap
+jdk appletviewer /usr/lib/jvm/java-7-openjdk-armel/bin/appletviewer
+jdk jstatd /usr/lib/jvm/java-7-openjdk-armel/bin/jstatd
+jdk jhat /usr/lib/jvm/java-7-openjdk-armel/bin/jhat
+jdk jdb /usr/lib/jvm/java-7-openjdk-armel/bin/jdb
+jdk serialver /usr/lib/jvm/java-7-openjdk-armel/bin/serialver
+jdk wsgen /usr/lib/jvm/java-7-openjdk-armel/bin/wsgen
+jdk jcmd /usr/lib/jvm/java-7-openjdk-armel/bin/jcmd
+jdk jarsigner /usr/lib/jvm/java-7-openjdk-armel/bin/jarsigner
+plugin mozilla-javaplugin.so /usr/lib/jvm/java-7-openjdk-armel/jre/lib/arm/IcedTeaPlugin.so

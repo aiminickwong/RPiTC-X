@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libharfbuzz-icu.so.0.935.0
+/usr/share
+/usr/share/doc/libharfbuzz-icu0
+/usr/share/doc/libharfbuzz-icu0/changelog.Debian.gz
+/usr/share/doc/libharfbuzz-icu0/copyright
+/usr/share/doc/libharfbuzz-icu0/changelog.gz
+/usr/lib/arm-linux-gnueabi/libharfbuzz-icu.so.0

@@ -1,0 +1,6 @@
+e9cf19688b15bdd80e95d29750be6a74  usr/lib/arm-linux-gnueabi/libvorbis.so.0.4.5
+2cd3409a36e40f55cf04b86e8dd8d939  usr/share/doc/libvorbis0a/CHANGES.gz
+4f1ce87127bdcc2f29b5e9fc894c8dca  usr/share/doc/libvorbis0a/changelog.Debian.gz
+2cd3409a36e40f55cf04b86e8dd8d939  usr/share/doc/libvorbis0a/changelog.gz
+6146d0267189a06b3ede97d3a18eb1fb  usr/share/doc/libvorbis0a/copyright
+f0fe488c46837022c7e5fda94ee90911  usr/share/lintian/overrides/libvorbis0a

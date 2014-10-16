@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libvirt-bin
+/usr/share/doc/libvirt-bin/README.Debian
+/usr/share/doc/libvirt-bin/changelog.Debian.gz
+/usr/share/doc/libvirt-bin/copyright
+/usr/share/bug
+/usr/share/bug/libvirt-bin
+/usr/share/bug/libvirt-bin/presubj
+/usr/share/doc/libvirt-bin/changelog.gz

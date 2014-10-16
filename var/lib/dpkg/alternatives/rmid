@@ -1,0 +1,9 @@
+auto
+/usr/bin/rmid
+rmid.1.gz
+/usr/share/man/man1/rmid.1.gz
+
+/usr/lib/jvm/java-7-openjdk-armel/jre/bin/rmid
+1063
+/usr/lib/jvm/java-7-openjdk-armel/jre/man/man1/rmid.1.gz
+

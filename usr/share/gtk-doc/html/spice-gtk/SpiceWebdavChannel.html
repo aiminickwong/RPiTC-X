@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>WebDAV Channel</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Spice-GTK Reference Manual">
+<link rel="up" href="ch02.html" title="Session and Channels Objects, from spice-client-glib">
+<link rel="prev" href="SpicePortChannel.html" title="Port Channel">
+<link rel="next" href="ch03.html" title="GTK Widget, from spice-client-gtk">
+<meta name="generator" content="GTK-Doc V1.19 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="SpicePortChannel.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="ch02.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Spice-GTK Reference Manual</th>
+<td><a accesskey="n" href="ch03.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#SpiceWebdavChannel.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#SpiceWebdavChannel.description" class="shortcut">Description</a>
+                   | 
+                  <a href="#SpiceWebdavChannel.object-hierarchy" class="shortcut">Object Hierarchy</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="SpiceWebdavChannel"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="SpiceWebdavChannel.top_of_page"></a>WebDAV Channel</span></h2>
+<p>WebDAV Channel — exports a directory</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="SpiceWebdavChannel.stability-level"></a><h2>Stability Level</h2>
+Stable, unless otherwise indicated
+</div>
+<div class="refsynopsisdiv">
+<a name="SpiceWebdavChannel.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#include &lt;channel-webdav.h&gt;
+
+struct              <a class="link" href="SpiceWebdavChannel.html#SpiceWebdavChannel-struct" title="struct SpiceWebdavChannel">SpiceWebdavChannel</a>;
+struct              <a class="link" href="SpiceWebdavChannel.html#SpiceWebdavChannelClass" title="struct SpiceWebdavChannelClass">SpiceWebdavChannelClass</a>;
+</pre>
+</div>
+<div class="refsect1">
+<a name="SpiceWebdavChannel.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="synopsis">
+  <a href="../gobject/gobject-The-Base-Object-Type.html#GObject">GObject</a>
+   +----<a class="link" href="SpiceChannel.html" title="Spice Channel">SpiceChannel</a>
+         +----<a class="link" href="SpicePortChannel.html" title="Port Channel">SpicePortChannel</a>
+               +----SpiceWebdavChannel
+</pre>
+</div>
+<div class="refsect1">
+<a name="SpiceWebdavChannel.description"></a><h2>Description</h2>
+<p>
+The "webdav" channel exports a directory to the guest for file
+manipulation (read/write/copy etc). The underlying protocol is
+implemented using WebDAV (RFC 4918).
+</p>
+<p>
+By default, the shared directory is the one associated with GLib
+<a href="../glib/glib-Miscellaneous-Utility-Functions.html#G-USER-DIRECTORY-PUBLIC-SHARE:CAPS"><code class="literal">G_USER_DIRECTORY_PUBLIC_SHARE</code></a>. You can specify a different
+directory with <a class="link" href="SpiceSession.html" title="Spice Session"><span class="type">SpiceSession</span></a> <a class="link" href="SpiceSession.html#SpiceSession--shared-dir" title='The "shared-dir" property'><span class="type">"shared-dir"</span></a> property.
+</p>
+</div>
+<div class="refsect1">
+<a name="SpiceWebdavChannel.details"></a><h2>Details</h2>
+<div class="refsect2">
+<a name="SpiceWebdavChannel-struct"></a><h3>struct SpiceWebdavChannel</h3>
+<pre class="programlisting">struct SpiceWebdavChannel;</pre>
+<p>
+The <a class="link" href="SpiceWebdavChannel.html" title="WebDAV Channel"><span class="type">SpiceWebdavChannel</span></a> struct is opaque and should not be accessed directly.
+</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="SpiceWebdavChannelClass"></a><h3>struct SpiceWebdavChannelClass</h3>
+<pre class="programlisting">struct SpiceWebdavChannelClass {
+    SpicePortChannelClass parent_class;
+};
+</pre>
+<p>
+Class structure for <a class="link" href="SpiceWebdavChannel.html" title="WebDAV Channel"><span class="type">SpiceWebdavChannel</span></a>.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term"><a class="link" href="SpicePortChannel.html#SpicePortChannelClass" title="struct SpicePortChannelClass"><span class="type">SpicePortChannelClass</span></a> <em class="structfield"><code><a name="SpiceWebdavChannelClass.parent-class"></a>parent_class</code></em>;</span></p></td>
+<td>Parent class.</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+<div class="refsect1">
+<a name="SpiceWebdavChannel.see-also"></a><h2>See Also</h2>
+<a class="link" href="SpiceChannel.html" title="Spice Channel"><span class="type">SpiceChannel</span></a>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.19</div>
+</body>
+</html>

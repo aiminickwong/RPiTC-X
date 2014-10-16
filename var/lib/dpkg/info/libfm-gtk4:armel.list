@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libfm-gtk.so.4.0.2
+/usr/share
+/usr/share/doc/libfm-gtk4
+/usr/share/doc/libfm-gtk4/changelog.Debian.gz
+/usr/share/doc/libfm-gtk4/copyright
+/usr/lib/arm-linux-gnueabi/libfm-gtk.so.4

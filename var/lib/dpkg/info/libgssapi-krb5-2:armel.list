@@ -1,0 +1,15 @@
+/.
+/etc
+/etc/gss
+/etc/gss/mech.d
+/etc/gss/mech.d/README
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libgssapi_krb5.so.2.2
+/usr/share
+/usr/share/doc/libgssapi-krb5-2
+/usr/share/doc/libgssapi-krb5-2/changelog.Debian.gz
+/usr/share/doc/libgssapi-krb5-2/copyright
+/usr/share/doc/libgssapi-krb5-2/NEWS.Debian.gz
+/usr/lib/arm-linux-gnueabi/libgssapi_krb5.so.2

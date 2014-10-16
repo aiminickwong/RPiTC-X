@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libopenjpeg.so.1.5.2
+/usr/lib/arm-linux-gnueabi/libopenjpeg_JPWL.so.1.5.2
+/usr/share
+/usr/share/doc
+/usr/share/doc/libopenjpeg5
+/usr/share/doc/libopenjpeg5/changelog.gz
+/usr/share/doc/libopenjpeg5/changelog.Debian.gz
+/usr/share/doc/libopenjpeg5/copyright
+/usr/lib/arm-linux-gnueabi/libopenjpeg_JPWL.so.5
+/usr/lib/arm-linux-gnueabi/libopenjpeg.so.5

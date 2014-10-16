@@ -1,0 +1,9 @@
+a89222c74702e705f35dcdb5c8da8324  usr/lib/arm-linux-gnueabi/libtiff.so.5.2.0
+70c042602c0c4a02e7f57c60e64182fd  usr/share/doc/libtiff5/README
+4ebda78850536a22e89ad81783a3414b  usr/share/doc/libtiff5/README.Debian
+9e73fd6a26d07e76fa7edf76312bfda2  usr/share/doc/libtiff5/TODO
+90508744ea1c92b8eaba3bf6e71a186f  usr/share/doc/libtiff5/changelog.Debian.armel.gz
+a636a5649a8466f93c492a06e99d81f1  usr/share/doc/libtiff5/changelog.Debian.gz
+ed01298c5e6f7077d30382f67e37280c  usr/share/doc/libtiff5/changelog.gz
+695ae31c6ddc61ea38050467e1214369  usr/share/doc/libtiff5/copyright
+bef9327009992eff52f279c04d2fbfd0  usr/share/lintian/overrides/libtiff5

@@ -1,0 +1,13 @@
+#!/bin/sh -e
+
+case "$1" in
+       configure)
+	       ldconfig
+esac
+
+# Automatically added by dh_makeshlibs
+if [ "$1" = "configure" ]; then
+	ldconfig
+fi
+# End automatically added section
+

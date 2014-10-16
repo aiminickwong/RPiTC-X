@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libxcb-util.so.0.0.0
+/usr/share
+/usr/share/doc/libxcb-util0
+/usr/share/doc/libxcb-util0/buildinfo_armel.gz
+/usr/share/doc/libxcb-util0/changelog.Debian.gz
+/usr/share/doc/libxcb-util0/README
+/usr/share/doc/libxcb-util0/NEWS.gz
+/usr/share/doc/libxcb-util0/copyright
+/usr/share/doc/libxcb-util0/changelog.gz
+/usr/lib/arm-linux-gnueabi/libxcb-util.so.0

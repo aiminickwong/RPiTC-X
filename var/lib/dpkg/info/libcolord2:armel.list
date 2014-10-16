@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libcolordprivate.so.2.0.1
+/usr/lib/arm-linux-gnueabi/libcolord.so.2.0.1
+/usr/share
+/usr/share/doc/libcolord2
+/usr/share/doc/libcolord2/changelog.Debian.gz
+/usr/share/doc/libcolord2/changelog.gz
+/usr/share/doc/libcolord2/changelog.Debian.armel.gz
+/usr/share/doc/libcolord2/copyright
+/usr/lib/arm-linux-gnueabi/libcolord.so.2
+/usr/lib/arm-linux-gnueabi/libcolordprivate.so.2

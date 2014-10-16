@@ -1,0 +1,12 @@
+ID_VERSION=13.0.0.256735
+DISP_VERSION=13.0.0
+CHANGE_NO=256735
+ID_PRODUCT_NAME=CitrixICAClient
+DISP_PRODUCT_NAME=Citrix Receiver for Linux
+uname=Linux rpitc-772c8017 3.12.29-RPiTC-X+ #9 PREEMPT Mon Oct 6 14:21:56 CEST 2014 armv6l GNU/Linux
+PORT=linuxarm
+LANGUAGE=*
+date=20141015171453 UTC
+INFO_FILE=Debian_installation
+DATA_FILE=Debian_package
+BROWSER_DIR=/usr/lib/mozilla

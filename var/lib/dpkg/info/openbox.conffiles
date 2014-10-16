@@ -1,0 +1,5 @@
+/etc/xdg/openbox/environment
+/etc/xdg/openbox/rc.xml
+/etc/xdg/openbox/autostart
+/etc/xdg/openbox/menu.xml
+/etc/menu-methods/openbox

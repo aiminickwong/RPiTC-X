@@ -1,0 +1,17 @@
+/.
+/etc
+/etc/socks.conf
+/usr
+/usr/lib
+/usr/lib/libsocks.a
+/usr/lib/libsocks.so.4.3
+/usr/share
+/usr/share/doc/libsocks4
+/usr/share/doc/libsocks4/changelog.Debian.gz
+/usr/share/doc/libsocks4/copyright
+/usr/share/doc/libsocks4/changelog.gz
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libsocks4
+/usr/lib/libsocks.so.4
+/usr/lib/libsocks.so

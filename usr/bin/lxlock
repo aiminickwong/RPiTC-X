@@ -1,0 +1,46 @@
+#!/bin/sh
+#
+#
+#  Copyright (C) 1999, 2003 Olivier Fourdan (fourdan@xfce.org)
+#  Copyright (C) 2012 Julien Lavergne (gilir@ubuntu.com)
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+#
+
+# Try to lock the screen with thos applications (in this order) :
+# lighdtm, xscreensaver, gnome-screensaver, slock, slock, i3lock and xdg-screensaver
+
+if test x"`which dm-tool 2>/dev/null`" != x""; then
+    dm-tool switch-to-greeter
+elif `dbus-send --system --print-reply --dest=org.freedesktop.DBus /org/freedesktop/DBus org.freedesktop.DBus.GetNameOwner string:org.freedesktop.DisplayManager > /dev/null 2>&1` ; then
+    seat="$XDG_SEAT_PATH"
+    dbus-send --system --print-reply --dest=org.freedesktop.DisplayManager "$seat" org.freedesktop.DisplayManager.Seat.SwitchToGreeter  \
+              2> /dev/null
+elif test x"`which xscreensaver-command 2>/dev/null`" != x""; then
+    xscreensaver-command -lock 
+elif test x"`which gnome-screensaver-command 2>/dev/null`" != x""; then
+    gnome-screensaver-command --lock
+elif test x"`which slock 2>/dev/null`" != x""; then
+    slock
+elif test x"`which xlock 2>/dev/null`" != x""; then
+    xlock $*
+elif test x"`which i3lock 2>/dev/null`" != x""; then
+    i3lock -d
+# In the end, try to fallback to xdg-screensaver. Don't do at the first try, 
+# because if lxlock is called by xdg-screensaver, we may enter a loop.
+else
+    xdg-screensaver lock 
+fi
+exit 0

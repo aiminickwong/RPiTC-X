@@ -1,0 +1,12 @@
+/.
+/etc
+/etc/ts.conf
+/usr
+/usr/share
+/usr/share/doc/tsconf
+/usr/share/doc/tsconf/changelog.Debian.gz
+/usr/share/doc/tsconf/copyright
+/usr/share/doc/tsconf/changelog.gz
+/usr/share/man
+/usr/share/man/man5
+/usr/share/man/man5/ts.conf.5.gz

@@ -1,0 +1,9 @@
+auto
+/usr/bin/policytool
+policytool.1.gz
+/usr/share/man/man1/policytool.1.gz
+
+/usr/lib/jvm/java-7-openjdk-armel/jre/bin/policytool
+1063
+/usr/lib/jvm/java-7-openjdk-armel/jre/man/man1/policytool.1.gz
+

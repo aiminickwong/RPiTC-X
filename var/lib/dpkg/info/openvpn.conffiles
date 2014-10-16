@@ -1,0 +1,6 @@
+/etc/init.d/openvpn
+/etc/bash_completion.d/openvpn
+/etc/default/openvpn
+/etc/openvpn/update-resolv-conf
+/etc/network/if-up.d/openvpn
+/etc/network/if-down.d/openvpn

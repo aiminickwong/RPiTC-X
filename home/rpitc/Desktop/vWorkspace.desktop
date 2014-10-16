@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=vWorkspace
+Exec=connmanager
+Type=Application
+Terminal=False
+Icon=/usr/share/pixmaps/vWorkspace.ico
+Categories=Application;

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libhpmud0
+/usr/share/doc/libhpmud0
+/usr/share/doc/libhpmud0/changelog.Debian.gz
+/usr/share/doc/libhpmud0/copyright
+/usr/lib
+/usr/lib/libhpip.so.0.0.1
+/usr/lib/libhpmud.so.0.0.6
+/usr/lib/libhpip.so.0
+/usr/lib/libhpmud.so.0

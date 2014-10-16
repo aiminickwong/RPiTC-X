@@ -1,0 +1,212 @@
+# This is the configuration file for rdesktop MMR client
+# Please, do NOT change it unless you know exactly what you're doing
+#
+# The syntax of key files is described in detail in the Desktop Entry Specification
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+#
+# here is a quick summary:
+#
+# Key files consists of groups of key-value pairs, interspersed with comments.
+#
+# Lines beginning with a '#' and blank lines are considered comments.
+#
+# Groups are started by a header line containing the group name enclosed in
+# '[' and ']', and ended implicitly by the start of the next group or the end
+# of the file. Each key-value pair must be contained in a group.
+#
+# Key-value pairs generally have the form key=value, with the exception of
+# localized strings, which have the form key[locale]=value, with a locale
+# identifier of the form lang_COUNTRYMODIFIER where COUNTRY and MODIFIER are
+# optional. Space before and after the '=' character are ignored. Newline, tab,
+# carriage return and backslash characters in value are escaped as \n, \t, \r,
+# and \\, respectively. To preserve leading spaces in values, these can also be
+# escaped as \s.
+#
+# Key files can store strings (possibly with localized variants), integers,
+# booleans and lists of these. Lists are separated by a separator character,
+# typically ';' or ','. To use the list separator character in a value in a
+# list, it has to be escaped by prefixing it with a backslash.
+
+# main parameters
+[main]
+
+# Logging level
+#  possible values:
+#  0 - LOG_EMERG (system is unusable)
+#  1 - LOG_ALERT (action must be taken immediately)
+#  2 - LOG_CRIT (critical conditions)
+#  3 - LOG_ERR (error conditions)
+#  4 - LOG_WARNING (warning conditions)
+#  5 - LOG_NOTICE (normal but significant condition)
+#  6 - LOG_INFO (informational)
+#  7 - LOG_DEBUG (debug-level messages)
+#  note: all proirities higher than that (i.e., with the lower values)
+#        will be allowed as well
+LogLevel = 4
+
+
+# GStreamer-related parameters
+[gst]
+
+# GStreamer audiosink
+#  to get the list of all sinks (audio and video) use 'gst-inspect | grep sink'
+AudioSink = alsasink
+
+# GStreamer videosink
+VideoSink = ximagesink
+
+# uncomment this line when you are sure that the videosink can scale video by itself
+# usually all videosinks cannot do this, xvimage can
+# VideoSinkCanScale = 1
+
+# formats identified by FOURCC value
+[fourcc]
+
+# MPEG-1, -2 and -4 video (ISO/LA MPEG)
+MPEG=video/mpeg, mpegversion=(int)1, systemstream=(boolean)false
+MPGI=video/mpeg, mpegversion=(int)1, systemstream=(boolean)false
+MP4V=video/mpeg, mpegversion=(int)4, systemstream=(boolean)false
+mp4v=video/mpeg, mpegversion=(int)4, systemstream=(boolean)false
+# DivX 3.x, 4.x and 5.x video (divx.com)
+DIV3=video/x-divx, divxversion=(int)3
+DIV4=video/x-divx, divxversion=(int)4
+DIV5=video/x-divx, divxversion=(int)5
+DIVX=video/x-divx
+DX50=video/x-divx, divxversion=(int)5
+divx=video/x-divx
+# Microsoft MPEG 4.1, 4.2 and 4.3
+MPG4=video/x-msmpeg, msmpegversion=(int)4
+MP42=video/x-msmpeg, msmpegversion=(int)42
+MP43=video/x-msmpeg, msmpegversion=(int)43
+# JPEG and Motion JPEG
+MJPG=image/jpeg
+JPEG=image/jpeg
+jpeg=image/jpeg
+PIXL=image/jpeg
+VIXL=image/jpeg
+# Sorensen (Quicktime - SVQ1/SVQ3)
+SVQ1=video/x-svq
+SVQ3=video/x-svq
+# H263 and related codecs
+H263=video/x-263
+M263=video/x-263
+x263=video/x-263
+VDOW=video/x-263
+VIVO=video/x-263
+# Intel H.263 codec
+i263=video/x-intel-263
+# RealVideo (Real)
+RV10=video/x-pn-realvideo
+RV20=video/x-pn-realvideo
+RV30=video/x-pn-realvideo
+# Digital Video
+DVSD=video/x-dv
+dvsd=video/x-dv
+# Windows Media Video
+WMV1=video/x-wmv, wmvversion=(int)1
+WMV2=video/x-wmv, wmvversion=(int)2
+WMV3=video/x-wmv, wmvversion=(int)3
+# XVid
+XVID=video/x-xvid
+xvid=video/x-xvid
+# 3ivx
+3IV0=video/x-3ivx
+3IV1=video/x-3ivx
+3IV2=video/x-3ivx
+# Huffyuv
+HFYU=video/x-huffyuv
+# FFMpeg video
+FFV1=video/x-ffv
+# ITU H.264
+H264=video/x-h264
+# Indeo family
+IAN= video/x-indeo
+IR21=video/x-indeo
+IV30=video/x-indeo
+IV31=video/x-indeo
+IV32=video/x-indeo
+IV33=video/x-indeo
+IV34=video/x-indeo
+IV35=video/x-indeo
+IV36=video/x-indeo
+IV37=video/x-indeo
+IV38=video/x-indeo
+IV39=video/x-indeo
+IV40=video/x-indeo
+IV41=video/x-indeo
+IV42=video/x-indeo
+IV43=video/x-indeo
+IV44=video/x-indeo
+IV45=video/x-indeo
+IV46=video/x-indeo
+IV47=video/x-indeo
+IV48=video/x-indeo
+IV49=video/x-indeo
+IV50=video/x-indeo
+IV51=video/x-indeo
+IV52=video/x-indeo
+# raw video
+YUV2=video/x-raw-yuv
+YVYU=video/x-raw-yuv
+UYVY=video/x-raw-yuv
+Y41P=video/x-raw-yuv
+IYU2=video/x-raw-yuv
+Y42B=video/x-raw-yuv
+YV12=video/x-raw-yuv
+I420=video/x-raw-yuv
+Y41B=video/x-raw-yuv
+YUV9=video/x-raw-yuv
+YVU9=video/x-raw-yuv
+Y800=video/x-raw-yuv
+# different codecs
+avc1=video/x-h264
+cvid=video/x-cinepak
+
+
+# audio formats are specified by tags
+[format tag]
+
+# TODO: Ogg/Vorbis
+
+# When Haali splitter is allowed to handle AVIs it returns 0 as AC3 format tag
+0x0=audio/x-ac3
+
+0x0092=audio/x-ac3
+0x2000=audio/x-ac3
+# Windows Media PCM audio format
+0x0001=audio/x-raw-int, endianness=(int)1234, signed=(boolean)true
+# DSP Group Truespeech
+0x0022=audio/x-raw-int, endianness=(int)1234, signed=(boolean)true
+0x0002=audio/adpcm
+0x0010=audio/adpcm
+0x0011=audio/adpcm
+0x0012=audio/adpcm
+0x0013=audio/adpcm
+0x0014=audio/adpcm
+0x0017=audio/adpcm
+0x0020=audio/adpcm
+0x0033=audio/adpcm
+0x0036=audio/adpcm
+0x0038=audio/adpcm
+0x0040=audio/adpcm
+0x0200=audio/adpcm
+0x1001=audio/adpcm
+0x0031=audio/x-gsm
+0x1000=audio/x-gsm
+0x0006=audio/x-alaw
+0x0007=audio/x-mulaw
+# MPEG1 layer 2 and 3
+0x0050=audio/mpeg, mpegversion=(int)1, layer=(int)2
+0x0055=audio/mpeg, mpegversion=(int)1, layer=(int)3
+# MPEG-AAC
+0x00ff=audio/mpeg, mpegversion=(int)2
+# WMAudioV2, WMAudioV7, WMAudioV8
+0x0161=audio/x-wma, wmaversion=(int)2
+# WMAudioV9
+0x0162=audio/x-wma, wmaversion=(int)3
+# MAudio_Loseless
+0x0163=audio/x-wma, wmaversion=(int)3
+# WMSP1
+0x000a=audio/x-wma
+# WMSP2
+0x000b=audio/x-wma

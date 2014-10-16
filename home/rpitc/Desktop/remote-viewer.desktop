@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Remote Viewer
+Exec=remote-viewer %u
+Type=Application
+Terminal=False
+Icon=/usr/share/pixmaps/spice.png
+Categories=Application;
+MimeType=x-scheme-handler/spice

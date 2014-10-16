@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=ScreenLock
+Name[zh_TW]=鎖住螢幕
+Name[pt_BR]=Bloquear tela
+Comment[pt_BR]=Bloqueie sua tela
+Comment=Lock your screen
+Icon=system-lock-screen
+Exec=lxlock
+NoDisplay=true

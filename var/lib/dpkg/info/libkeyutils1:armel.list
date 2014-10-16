@@ -1,0 +1,10 @@
+/.
+/lib
+/lib/arm-linux-gnueabi
+/lib/arm-linux-gnueabi/libkeyutils.so.1.5
+/usr
+/usr/share
+/usr/share/doc/libkeyutils1
+/usr/share/doc/libkeyutils1/changelog.Debian.gz
+/usr/share/doc/libkeyutils1/copyright
+/lib/arm-linux-gnueabi/libkeyutils.so.1

@@ -1,0 +1,6 @@
+c42617085e35047b61e2cb6ab0cadf4f  usr/lib/arm-linux-gnueabi/libgd.so.3.0.0
+895b728a6b021c9d6b754f0eacc09e24  usr/share/doc/libgd3/changelog.Debian.armel.gz
+8ebf23b6fac635f08fc359b8654de68d  usr/share/doc/libgd3/changelog.Debian.gz
+6b7b51e8a11597e6401226a5eb5381f2  usr/share/doc/libgd3/changelog.gz
+44d425370e923133371e193527f1f69f  usr/share/doc/libgd3/copyright
+43a0895ba7ba88ad91e8dcea5b1520cf  usr/share/lintian/overrides/libgd3

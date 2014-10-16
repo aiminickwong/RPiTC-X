@@ -1,0 +1,6 @@
+ee3a8cbda51a5c35f8fbfdc003b8a6fd  lib/startpar/startpar
+865973464c7906f29be570622080ad68  lib/startpar/startpar-upstart-inject
+5db837935154a357a61ea763fcaa5d3c  usr/share/doc/startpar/changelog.Debian.gz
+90ef4a0f96fa63b3968a71c972edd055  usr/share/doc/startpar/copyright
+ee638245acbd353fc3dc8b473ce1d9cf  usr/share/man/man8/startpar-upstart-inject.8.gz
+0ac33f564635f17f474706bccb023733  usr/share/man/man8/startpar.8.gz

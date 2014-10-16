@@ -1,0 +1,8 @@
+22d08e7491d24cf3d23c251938c0a1ae  usr/lib/arm-linux-gnueabi/libavresample.so.2.1.0
+1364094fc65673e21526b2af6f6888f7  usr/lib/arm-linux-gnueabi/neon/vfp/libavresample.so.2.1.0
+7c52ee0b8ee2f20793f124a09279cc80  usr/lib/arm-linux-gnueabi/vfp/libavresample.so.2.1.0
+7906be10ad1a6590b1828dca02678003  usr/share/doc/libavresample2/NEWS.Debian.gz
+a4b6113bb17f0443f68b558e890e6a90  usr/share/doc/libavresample2/changelog.Debian.gz
+c99ad9efa0bec536b4bf87760388a2ea  usr/share/doc/libavresample2/changelog.gz
+323125fc98bc748defccc624b74fd752  usr/share/doc/libavresample2/copyright
+00b5c6506376db8ba568de2d5b0a3f6a  usr/share/lintian/overrides/libavresample2

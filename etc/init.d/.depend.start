@@ -1,0 +1,6 @@
+TARGETS = dbus motd bootlogs killprocs cron ssh ntp ctxusbd network-manager single rmnologin rc.local
+INTERACTIVE =
+network-manager: dbus
+single: killprocs motd bootlogs
+rmnologin: network-manager dbus cron ssh ntp ctxusbd
+rc.local: network-manager dbus cron ssh ntp ctxusbd

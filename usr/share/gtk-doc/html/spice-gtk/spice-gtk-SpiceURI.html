@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SpiceURI</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Spice-GTK Reference Manual">
+<link rel="up" href="application-support.html" title="Application Support, from spice-client-glib">
+<link rel="prev" href="spice-gtk-Utilities.html" title="Utilities">
+<link rel="next" href="object-tree.html" title="Object Hierarchy">
+<meta name="generator" content="GTK-Doc V1.19 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="spice-gtk-Utilities.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="application-support.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Spice-GTK Reference Manual</th>
+<td><a accesskey="n" href="object-tree.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#spice-gtk-SpiceURI.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#spice-gtk-SpiceURI.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="spice-gtk-SpiceURI"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="spice-gtk-SpiceURI.top_of_page"></a>SpiceURI</span></h2>
+<p>SpiceURI — URIs handling</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="spice-gtk-SpiceURI.stability-level"></a><h2>Stability Level</h2>
+Stable, unless otherwise indicated
+</div>
+<div class="refsynopsisdiv">
+<a name="spice-gtk-SpiceURI.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#include &lt;spice-uri.h&gt;
+
+const <a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-get-scheme" title="spice_uri_get_scheme ()">spice_uri_get_scheme</a>                (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-set-scheme" title="spice_uri_set_scheme ()">spice_uri_set_scheme</a>                (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *scheme</code></em>);
+const <a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-get-hostname" title="spice_uri_get_hostname ()">spice_uri_get_hostname</a>              (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-set-hostname" title="spice_uri_set_hostname ()">spice_uri_set_hostname</a>              (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *hostname</code></em>);
+<a href="../glib/glib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>               <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-get-port" title="spice_uri_get_port ()">spice_uri_get_port</a>                  (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-set-port" title="spice_uri_set_port ()">spice_uri_set_port</a>                  (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a> port</code></em>);
+const <a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-get-user" title="spice_uri_get_user ()">spice_uri_get_user</a>                  (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-set-user" title="spice_uri_set_user ()">spice_uri_set_user</a>                  (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *user</code></em>);
+const <a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-get-password" title="spice_uri_get_password ()">spice_uri_get_password</a>              (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);
+<span class="returnvalue">void</span>                <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-set-password" title="spice_uri_set_password ()">spice_uri_set_password</a>              (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *password</code></em>);
+<a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             <a class="link" href="spice-gtk-SpiceURI.html#spice-uri-to-string" title="spice_uri_to_string ()">spice_uri_to_string</a>                 (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);
+                    <a class="link" href="spice-gtk-SpiceURI.html#SpiceURIClass" title="SpiceURIClass">SpiceURIClass</a>;
+                    <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI">SpiceURI</a>;
+</pre>
+</div>
+<div class="refsect1">
+<a name="spice-gtk-SpiceURI.description"></a><h2>Description</h2>
+<p>
+A SpiceURI represents a (parsed) URI.
+</p>
+</div>
+<div class="refsect1">
+<a name="spice-gtk-SpiceURI.details"></a><h2>Details</h2>
+<div class="refsect2">
+<a name="spice-uri-get-scheme"></a><h3>spice_uri_get_scheme ()</h3>
+<pre class="programlisting">const <a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       spice_uri_get_scheme                (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);</pre>
+<p>
+Gets <em class="parameter"><code>uri</code></em>'s scheme.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+<em class="parameter"><code>uri</code></em>'s scheme.</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-uri-set-scheme"></a><h3>spice_uri_set_scheme ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                spice_uri_set_scheme                (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *scheme</code></em>);</pre>
+<p>
+Sets <em class="parameter"><code>uri</code></em>'s scheme to <em class="parameter"><code>scheme</code></em>.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>scheme</code></em> :</span></p></td>
+<td>the scheme</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-uri-get-hostname"></a><h3>spice_uri_get_hostname ()</h3>
+<pre class="programlisting">const <a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       spice_uri_get_hostname              (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);</pre>
+<p>
+Gets <em class="parameter"><code>uri</code></em>'s hostname.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+<em class="parameter"><code>uri</code></em>'s hostname.</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-uri-set-hostname"></a><h3>spice_uri_set_hostname ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                spice_uri_set_hostname              (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *hostname</code></em>);</pre>
+<p>
+Sets <em class="parameter"><code>uri</code></em>'s hostname to <em class="parameter"><code>hostname</code></em>.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>hostname</code></em> :</span></p></td>
+<td>the hostname</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-uri-get-port"></a><h3>spice_uri_get_port ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#guint"><span class="returnvalue">guint</span></a>               spice_uri_get_port                  (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);</pre>
+<p>
+Gets <em class="parameter"><code>uri</code></em>'s port.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+<em class="parameter"><code>uri</code></em>'s port.</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-uri-set-port"></a><h3>spice_uri_set_port ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                spice_uri_set_port                  (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code><a href="../glib/glib-Basic-Types.html#guint"><span class="type">guint</span></a> port</code></em>);</pre>
+<p>
+Sets <em class="parameter"><code>uri</code></em>'s port to <em class="parameter"><code>port</code></em>.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>port</code></em> :</span></p></td>
+<td>the port</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-uri-get-user"></a><h3>spice_uri_get_user ()</h3>
+<pre class="programlisting">const <a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       spice_uri_get_user                  (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);</pre>
+<p>
+Gets <em class="parameter"><code>uri</code></em>'s user.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+<em class="parameter"><code>uri</code></em>'s user.</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-uri-set-user"></a><h3>spice_uri_set_user ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                spice_uri_set_user                  (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *user</code></em>);</pre>
+<p>
+Sets <em class="parameter"><code>uri</code></em>'s user to <em class="parameter"><code>user</code></em>.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>user</code></em> :</span></p></td>
+<td>the user, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-uri-get-password"></a><h3>spice_uri_get_password ()</h3>
+<pre class="programlisting">const <a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       spice_uri_get_password              (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);</pre>
+<p>
+Gets <em class="parameter"><code>uri</code></em>'s password.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>
+<em class="parameter"><code>uri</code></em>'s password.</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-uri-set-password"></a><h3>spice_uri_set_password ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                spice_uri_set_password              (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>,
+                                                         <em class="parameter"><code>const <a href="../glib/glib-Basic-Types.html#gchar"><span class="type">gchar</span></a> *password</code></em>);</pre>
+<p>
+Sets <em class="parameter"><code>uri</code></em>'s password to <em class="parameter"><code>password</code></em>.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>password</code></em> :</span></p></td>
+<td>the password, or <a href="../glib/glib-Standard-Macros.html#NULL:CAPS"><code class="literal">NULL</code></a>.</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-uri-to-string"></a><h3>spice_uri_to_string ()</h3>
+<pre class="programlisting"><a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *             spice_uri_to_string                 (<em class="parameter"><code><a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a> *uri</code></em>);</pre>
+<p>
+Returns a string representing <em class="parameter"><code>uri</code></em>.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>uri</code></em> :</span></p></td>
+<td>a <a class="link" href="spice-gtk-SpiceURI.html#SpiceURI" title="SpiceURI"><span class="type">SpiceURI</span></a>
+</td>
+</tr>
+<tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>a string representing <em class="parameter"><code>uri</code></em>, which the caller must free.</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="SpiceURIClass"></a><h3>SpiceURIClass</h3>
+<pre class="programlisting">typedef struct _SpiceURIClass SpiceURIClass;</pre>
+</div>
+<hr>
+<div class="refsect2">
+<a name="SpiceURI"></a><h3>SpiceURI</h3>
+<pre class="programlisting">typedef struct _SpiceURI SpiceURI;</pre>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.19</div>
+</body>
+</html>

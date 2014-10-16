@@ -1,0 +1,4 @@
+5ae5babd7b37954cf15ee759eff18071  usr/lib/arm-linux-gnueabi/librados.so.2.0.0
+0902e58ce0e5fd2ab8a24860b44ece24  usr/share/doc/librados2/changelog.Debian.gz
+c70925ce93826c0562aef5d933abe8b1  usr/share/doc/librados2/copyright
+75e6a87de11914b03ec3efd075dd4898  usr/share/lintian/overrides/librados2

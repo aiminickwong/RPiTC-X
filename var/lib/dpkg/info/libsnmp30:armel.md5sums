@@ -1,0 +1,11 @@
+04f935c5a47db54a2c6ad531b4eb7e53  usr/lib/arm-linux-gnueabi/libnetsnmp.so.30.0.2
+24f3772eaf770aa25a3cb5c69132edee  usr/lib/arm-linux-gnueabi/libnetsnmpagent.so.30.0.2
+b5cbee25ab27c5a0141af053646949d7  usr/lib/arm-linux-gnueabi/libnetsnmphelpers.so.30.0.2
+2656eaccb431822b399c7914fb9c7591  usr/lib/arm-linux-gnueabi/libnetsnmpmibs.so.30.0.2
+3a7b0fc1a344d50e0f4f2d0dd869cf1e  usr/lib/arm-linux-gnueabi/libnetsnmptrapd.so.30.0.2
+084925d9094a770a069a8484ecbf3fbf  usr/lib/arm-linux-gnueabi/libsnmp.so.30.0.2
+0081dd808d459e0348a9bf9fb5d8ebc3  usr/share/doc/libsnmp30/NEWS.Debian.gz
+efe137889f8010e607d5bb7b536ad84c  usr/share/doc/libsnmp30/changelog.Debian.gz
+5f3c989763d347a0365d0c88d26f72ef  usr/share/doc/libsnmp30/changelog.gz
+35ef5891fe22ecc2cfad376eccc242fd  usr/share/doc/libsnmp30/copyright
+c5ec060f325e02f50752bc8a9e7b0dcf  usr/share/lintian/overrides/libsnmp30

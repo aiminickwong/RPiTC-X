@@ -1,0 +1,1 @@
+../../../../share/pyshared/pexpect/__init__.py

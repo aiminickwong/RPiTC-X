@@ -1,0 +1,7 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libperl5.20
+/usr/share/doc/libperl5.20

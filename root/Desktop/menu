@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=menu
+Exec=leafpad /home/rpitc/.config/openbox/menu.xml
+Comment=

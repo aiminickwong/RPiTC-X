@@ -1,0 +1,10 @@
+ec4d0e133b699299cd1c1ac9ffdec842  usr/lib/arm-linux-gnueabi/libQtCLucene.so.4.8.6
+01afe3ded71c76c8e1422eccc59305f5  usr/lib/arm-linux-gnueabi/libQtCore.so.4.8.6
+bd04a1807114ba18dfa6cecaaeffbc04  usr/lib/arm-linux-gnueabi/qt4/plugins/codecs/libqcncodecs.so
+3d9c3c9bf3495036bc3c6c87ebaf4e2a  usr/lib/arm-linux-gnueabi/qt4/plugins/codecs/libqjpcodecs.so
+9b556dc7e4faad246e7a5cb3131cdb6b  usr/lib/arm-linux-gnueabi/qt4/plugins/codecs/libqkrcodecs.so
+22dbb8e7a952c181f0bd561588eb83b2  usr/lib/arm-linux-gnueabi/qt4/plugins/codecs/libqtwcodecs.so
+eb6c371255e1262c55ae9b652a90b528  usr/share/doc/libqtcore4/LGPL_EXCEPTION.txt
+d9fd3c49ae6d1617ce27f18a93585a95  usr/share/doc/libqtcore4/changelog.Debian.gz
+d49cf542b1b3ba75bad90e9560c459d3  usr/share/doc/libqtcore4/copyright
+6b77023ecaf9e13d687f726ab9e3ed48  usr/share/qtchooser/qt4-arm-linux-gnueabi.conf

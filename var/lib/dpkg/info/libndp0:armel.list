@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libndp.so.0.0.2
+/usr/share
+/usr/share/doc/libndp0
+/usr/share/doc/libndp0/changelog.Debian.gz
+/usr/share/doc/libndp0/copyright
+/usr/lib/arm-linux-gnueabi/libndp.so.0

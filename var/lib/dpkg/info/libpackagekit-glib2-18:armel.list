@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libpackagekit-glib2.so.18.0.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpackagekit-glib2-18
+/usr/share/doc/libpackagekit-glib2-18/changelog.Debian.gz
+/usr/share/doc/libpackagekit-glib2-18/copyright
+/usr/lib/arm-linux-gnueabi/libpackagekit-glib2.so.18

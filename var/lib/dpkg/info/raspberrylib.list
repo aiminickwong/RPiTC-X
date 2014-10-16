@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/libEGL.so
+/usr/lib/libbcm_host.so
+/usr/lib/libGLESv2.so
+/usr/lib/libvcos.so
+/usr/lib/libopenmaxil.so
+/usr/lib/libvchiq_arm.so
+/usr/bin
+/usr/bin/h264.bin

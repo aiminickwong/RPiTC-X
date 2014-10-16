@@ -1,0 +1,6 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=autostart application
+Exec=leafpad /home/rpitc/.config/lxsession/LXDE/autostart
+Comment=

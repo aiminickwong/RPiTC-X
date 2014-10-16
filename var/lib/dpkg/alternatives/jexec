@@ -1,0 +1,9 @@
+auto
+/usr/bin/jexec
+jexec-binfmt
+/usr/share/binfmts/jar
+
+/usr/lib/jvm/java-7-openjdk-armel/jre/lib/jexec
+1063
+/usr/lib/jvm/java-7-openjdk-armel/jre/lib/jar.binfmt
+

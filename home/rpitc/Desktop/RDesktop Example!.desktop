@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=RDesktop Example!
+Exec=rdesktop -u USERNAME -p PASSWORD -g 1440x900 -E -x l -z -P -r sound:local:alsa:default 192.168.0.100
+Type=Application
+Terminal=False
+Icon=/usr/share/pixmaps/RDesktop.png
+Categories=Application;

@@ -1,0 +1,15 @@
+84946224eea4a7c1aa8e19e984b99212  usr/share/doc/python-pexpect/changelog.Debian.gz
+ed9c1518de6c681ae8e2448f90fbbfc5  usr/share/doc/python-pexpect/copyright
+e32c5754a0fd47108ffa4fe3658e6653  usr/share/pyshared/ANSI.py
+49ea3119ff846b779c63773e07f6ad3e  usr/share/pyshared/FSM.py
+d8590c6ce294093be56519f41afadd94  usr/share/pyshared/fdpexpect.py
+7be649fd3a89044d8228a86585bb5cea  usr/share/pyshared/pexpect-3.2.egg-info
+fa6754567accfbd266332304ae9d3cc3  usr/share/pyshared/pexpect/ANSI.py
+71d99777dac77f94aba0c9db785608ff  usr/share/pyshared/pexpect/FSM.py
+887bed7c9cd00275666d1f35200400c4  usr/share/pyshared/pexpect/__init__.py
+58b2f21726c781b3b253d394f2b6b330  usr/share/pyshared/pexpect/fdpexpect.py
+a491b2a1ca710c5e947cbc0050a15afb  usr/share/pyshared/pexpect/psh.py
+e9637cc5535bcee45fb419f17e852101  usr/share/pyshared/pexpect/pxssh.py
+f044589dc208090c23957ed81c6c5f50  usr/share/pyshared/pexpect/screen.py
+1878dcf195d2297a9bd6dcc27c8fde10  usr/share/pyshared/pxssh.py
+7d5ff6a9f23b2ff6630fb574dbd40362  usr/share/pyshared/screen.py

@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libfm
+/usr/lib/arm-linux-gnueabi/libfm/modules
+/usr/lib/arm-linux-gnueabi/libfm/modules/gtk-menu-actions.so
+/usr/lib/arm-linux-gnueabi/libfm/modules/vfs-search.so
+/usr/lib/arm-linux-gnueabi/libfm/modules/gtk-menu-trash.so
+/usr/lib/arm-linux-gnueabi/libfm/modules/vfs-menu.so
+/usr/lib/arm-linux-gnueabi/libfm/modules/gtk-fileprop-x-shortcut.so
+/usr/lib/arm-linux-gnueabi/libfm/modules/gtk-fileprop-x-desktop.so
+/usr/share
+/usr/share/doc/libfm-modules
+/usr/share/doc/libfm-modules/changelog.Debian.gz
+/usr/share/doc/libfm-modules/copyright

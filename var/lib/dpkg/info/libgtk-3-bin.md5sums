@@ -1,0 +1,11 @@
+785d490cea582cf599544a95b2832fac  usr/bin/broadwayd
+4fc98a45925c4c6568d6d6e65366838f  usr/bin/gtk-launch
+6a2ca9da3d9e2cbb106f36a54a782ac6  usr/sbin/update-icon-caches
+462252ce98d71b71c9ab7717e9fc4d40  usr/share/doc/libgtk-3-bin/AUTHORS
+ccf6bde43c9df4e20fa640d73c18b9c9  usr/share/doc/libgtk-3-bin/changelog.Debian.gz
+ef7d88464a428a619cb83d82bd26028f  usr/share/doc/libgtk-3-bin/copyright
+e54897e136cfd3aaa36298f7f5ae54cd  usr/share/man/man1/broadwayd.1.gz
+58409d91d0a3ec3aa1561afae6e8b706  usr/share/man/man1/gtk-launch.1.gz
+e6d021fc023cd57452eb3232b5b4685c  usr/share/man/man1/gtk-query-immodules-3.0.1.gz
+0c334cce34cf0ff3d6c3db9300fb68d0  usr/share/man/man1/gtk-update-icon-cache-3.0.1.gz
+7a8d5cc34c66f4b3cc0fe1a08067946c  usr/share/man/man8/update-icon-caches.8.gz

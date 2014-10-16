@@ -1,0 +1,8 @@
+5a7b0fc694475c643977bb8c82ac9b72  usr/bin/libfm-pref-apps
+926b653ade67c02e2018d1b2fd95cabd  usr/bin/lxshortcut
+7631487ac543cc19b2241161c18121c0  usr/share/applications/libfm-pref-apps.desktop
+4b06352c277b365b6abb236cf2078733  usr/share/applications/lxshortcut.desktop
+c1eb5dd9310ef198e7169fa5210e483a  usr/share/doc/libfm-tools/changelog.Debian.gz
+3c8a81dbfa25d76373e01296db043004  usr/share/doc/libfm-tools/copyright
+6f5005bc965e0f445c46ebeabb18e902  usr/share/man/man1/libfm-pref-apps.1.gz
+e305c0793fcc144ec8a3d283ddc389e7  usr/share/man/man1/lxshortcut.1.gz

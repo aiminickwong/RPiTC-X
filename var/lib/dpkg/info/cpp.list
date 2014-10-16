@@ -1,0 +1,13 @@
+/.
+/lib
+/usr
+/usr/bin
+/usr/share
+/usr/share/doc/cpp/README.Debian
+/usr/share/doc/cpp/changelog.Debian.gz
+/usr/share/doc/cpp/copyright
+/usr/share/man
+/usr/share/man/man1
+/usr/share/man/man7
+/usr/bin/cpp
+/usr/bin/arm-linux-gnueabi-cpp

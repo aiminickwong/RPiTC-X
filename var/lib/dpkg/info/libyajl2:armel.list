@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libyajl.so.2.1.0
+/usr/share
+/usr/share/doc/libyajl2
+/usr/share/doc/libyajl2/changelog.Debian.gz
+/usr/share/doc/libyajl2/README
+/usr/share/doc/libyajl2/TODO
+/usr/share/doc/libyajl2/copyright
+/usr/share/doc/libyajl2/changelog.gz
+/usr/lib/arm-linux-gnueabi/libyajl.so.2

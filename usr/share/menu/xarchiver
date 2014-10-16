@@ -1,0 +1,6 @@
+?package(xarchiver):needs="X11" \
+ section="Applications/File Management" \
+ title="Xarchiver" \
+ longtitle="GTK+ frontend for most used compression formats" \
+ command="/usr/bin/xarchiver" \
+ icon="/usr/share/pixmaps/xarchiver.xpm"

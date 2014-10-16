@@ -1,0 +1,11 @@
+7d963dedee0cddcb95b46507f8002f20  lib/systemd/system/pcscd.service
+54647dcc3e19b31e5b950e71e6d0a6df  lib/systemd/system/pcscd.socket
+20b4e90360a71945200a49676a9e87e0  usr/sbin/pcscd
+9cbe887169cbeadd62da845b0a2ee943  usr/share/doc/pcscd/DRIVERS
+9c51c9fedfc41d9cf2385b9ed215544a  usr/share/doc/pcscd/README.gz
+6e328bde7aed7107216f725eceb145c4  usr/share/doc/pcscd/SECURITY
+b869887918c537ebe6ff0d2791946c8c  usr/share/doc/pcscd/changelog.Debian.gz
+5569205e2400c6a6d1b4dc3e9fd0ae3b  usr/share/doc/pcscd/changelog.gz
+7d3041ce23deb97beb886d96fe14c845  usr/share/doc/pcscd/copyright
+6a852c261fbbbe79104d3e6b99b50a6c  usr/share/man/man5/reader.conf.5.gz
+efa17024d64c29e3f42754f101102575  usr/share/man/man8/pcscd.8.gz

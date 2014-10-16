@@ -1,0 +1,27 @@
+#!/bin/sh
+
+set -e
+
+basedir=/usr/lib/jvm/java-7-openjdk-armel
+jre_tools='rmid java keytool pack200 rmiregistry unpack200 orbd servertool tnameserv'
+
+rm -f $basedir/jre/lib/arm/client/classes.jsa
+rm -f $basedir/jre/lib/arm/server/classes.jsa
+
+if [ "$1" = "remove" ] || [ "$1" = "deconfigure" ]; then
+    for i in $jre_tools; do
+	update-alternatives --remove $i $basedir/jre/bin/$i
+    done
+
+    if which update-binfmts >/dev/null; then
+	# try to remove and ignore the error
+	if [ -e /var/lib/binfmts/openjdk-7 ]; then
+	    update-binfmts --package openjdk-7 \
+		--remove jar /usr/bin/jexec || true
+	fi
+    fi
+
+    update-alternatives --remove jexec $basedir/jre/lib/jexec
+fi
+
+

@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Origin: Gibbio
+Label: RPi-TC ARMv6kz
+Codename: sid
+Date: Thu, 09 Oct 2014 10:37:20 UTC
+Architectures: armel
+Components: main
+Description: Raspberry Pi Thin Client project ARMv6kz package
+MD5Sum:
+ 922acaed146f0613c490698c0532b24f 1794198 main/binary-armel/Packages
+ 003c4eef2ba0c771e6c676f661705348 407159 main/binary-armel/Packages.gz
+ f35aaa6b3d25703f66ccec2e01f8a58e 135 main/binary-armel/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ be6acd141010185e0d58bfdde3179e74 136 main/source/Release
+SHA1:
+ 68f230a1e1950c8e1feb10938cd8eaf90d0e2805 1794198 main/binary-armel/Packages
+ 2f309f1c32d5c95ab70484828fb980711991b1f1 407159 main/binary-armel/Packages.gz
+ 91a3451149207adc62b8df06b165118ab450bb4a 135 main/binary-armel/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ c493bcfa5fc4918c221b8608b89c25f453cf41bf 136 main/source/Release
+SHA256:
+ 7e5e343708b952b49b18d4c95d6b71d0235e3e03071849cb064c62d9af8d2e54 1794198 main/binary-armel/Packages
+ 1b84cdb59140e3464a3f0d2793751c78a405fba2d0fef1c22cbe96ffcd7cff20 407159 main/binary-armel/Packages.gz
+ 9b7f8718f3ef1b8c60fbbc309a24769586a88c4a7ef18d1af1ea3ca9aab8dd92 135 main/binary-armel/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ de5c83b70afa462c99d6815c9f27748d2eff829768375d86d04a04d6d5b5604e 136 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJUNmVlAAoJEGiIsU04JvlJMfQH/RIIE02kvWK0QAct0Xj/WgxU
+9BVIgbnkkGGLFyl9do6shE6xQMzDNGptVI8cylN5yiMzmDzC2P5wlRWRxe/nGB+G
+jkMZXeKsNUriu9GmN6/1uKAvny/KWlwdPOZ37cyLyZrA9NEZj9SnpsfsoEfxr0f6
+FmbUaGaUvrIcj4/yFWN9+nKTZepqAxZ8q28KWB/TnLogqoadJAEAj/wYZ1hoFrG+
+hjSgW3/4ln1/BpobkSmg04mKg12o+BLWLgUtrTo+hybcKJmfhb2eN/r7oPBsvpZS
+hLwd6Bb2VKp9yECAL9xa8FMzMP1N1CJi4QSEosumaTuHD/yuw9OBhkxoKrbZ7ag=
+=yPZP
+-----END PGP SIGNATURE-----

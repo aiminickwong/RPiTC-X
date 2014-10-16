@@ -1,0 +1,8 @@
+bdb8c1f8b307303131feaa5d3947e21a  usr/lib/arm-linux-gnueabi/libdbus-glib-1.so.2.2.2
+5036ee291e5a2a6f0b77959c46c80b90  usr/share/doc/libdbus-glib-1-2/AUTHORS
+af3b53b67d5cc1bc776d1d4ed747280d  usr/share/doc/libdbus-glib-1-2/NEWS.gz
+07f97ac6ea5244435dd1c35bd3c62252  usr/share/doc/libdbus-glib-1-2/README
+49dbecb3e17f9ee7ed28a52cd69b6c39  usr/share/doc/libdbus-glib-1-2/changelog.Debian.gz
+ea32cbf8dfc6096729f2b1b9b16e6311  usr/share/doc/libdbus-glib-1-2/changelog.gz
+a03f359b4c661824d9a661c892b5b5e4  usr/share/doc/libdbus-glib-1-2/copyright
+ba76dafcd835c099047d890d0fe88685  usr/share/lintian/overrides/libdbus-glib-1-2

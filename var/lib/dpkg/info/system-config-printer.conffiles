@@ -1,0 +1,3 @@
+/etc/xdg/autostart/print-applet.desktop
+/etc/dbus-1/system.d/com.redhat.PrinterDriversInstaller.conf
+/etc/dbus-1/system.d/com.redhat.NewPrinterNotification.conf

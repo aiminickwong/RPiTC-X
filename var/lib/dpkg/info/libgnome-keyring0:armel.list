@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc/libgnome-keyring0
+/usr/share/doc/libgnome-keyring0/changelog.Debian.gz
+/usr/share/doc/libgnome-keyring0/copyright
+/usr/share/doc/libgnome-keyring0/README
+/usr/share/doc/libgnome-keyring0/NEWS.gz
+/usr/share/doc/libgnome-keyring0/changelog.gz
+/usr/share/doc/libgnome-keyring0/AUTHORS
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libgnome-keyring.so.0.2.0
+/usr/lib/arm-linux-gnueabi/libgnome-keyring.so.0

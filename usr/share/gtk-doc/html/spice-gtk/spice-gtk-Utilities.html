@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Utilities</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.78.1">
+<link rel="home" href="index.html" title="Spice-GTK Reference Manual">
+<link rel="up" href="application-support.html" title="Application Support, from spice-client-glib">
+<link rel="prev" href="SpiceUsbDeviceManager.html" title="Spice USB Manager">
+<link rel="next" href="spice-gtk-SpiceURI.html" title="SpiceURI">
+<meta name="generator" content="GTK-Doc V1.19 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="2">
+<tr valign="middle">
+<td><a accesskey="p" href="SpiceUsbDeviceManager.html"><img src="left.png" width="24" height="24" border="0" alt="Prev"></a></td>
+<td><a accesskey="u" href="application-support.html"><img src="up.png" width="24" height="24" border="0" alt="Up"></a></td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="24" height="24" border="0" alt="Home"></a></td>
+<th width="100%" align="center">Spice-GTK Reference Manual</th>
+<td><a accesskey="n" href="spice-gtk-SpiceURI.html"><img src="right.png" width="24" height="24" border="0" alt="Next"></a></td>
+</tr>
+<tr><td colspan="5" class="shortcuts">
+<a href="#spice-gtk-Utilities.synopsis" class="shortcut">Top</a>
+                   | 
+                  <a href="#spice-gtk-Utilities.description" class="shortcut">Description</a>
+</td></tr>
+</table>
+<div class="refentry">
+<a name="spice-gtk-Utilities"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="spice-gtk-Utilities.top_of_page"></a>Utilities</span></h2>
+<p>Utilities — version and debugging functions</p>
+</td>
+<td valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="spice-gtk-Utilities.stability-level"></a><h2>Stability Level</h2>
+Stable, unless otherwise indicated
+</div>
+<div class="refsynopsisdiv">
+<a name="spice-gtk-Utilities.synopsis"></a><h2>Synopsis</h2>
+<pre class="synopsis">
+#include &lt;spice-util.h&gt;
+
+<span class="returnvalue">void</span>                <a class="link" href="spice-gtk-Utilities.html#spice-util-set-debug" title="spice_util_set_debug ()">spice_util_set_debug</a>                (<em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> enabled</code></em>);
+const <a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       <a class="link" href="spice-gtk-Utilities.html#spice-util-get-version-string" title="spice_util_get_version_string ()">spice_util_get_version_string</a>       (<em class="parameter"><code><span class="type">void</span></code></em>);
+#define             <a class="link" href="spice-gtk-Utilities.html#SPICE-GTK-CHECK-VERSION:CAPS" title="SPICE_GTK_CHECK_VERSION()">SPICE_GTK_CHECK_VERSION</a>             (major,
+                                                         minor,
+                                                         micro)
+#define             <a class="link" href="spice-gtk-Utilities.html#SPICE-GTK-MAJOR-VERSION:CAPS" title="SPICE_GTK_MAJOR_VERSION">SPICE_GTK_MAJOR_VERSION</a>
+#define             <a class="link" href="spice-gtk-Utilities.html#SPICE-GTK-MICRO-VERSION:CAPS" title="SPICE_GTK_MICRO_VERSION">SPICE_GTK_MICRO_VERSION</a>
+#define             <a class="link" href="spice-gtk-Utilities.html#SPICE-GTK-MINOR-VERSION:CAPS" title="SPICE_GTK_MINOR_VERSION">SPICE_GTK_MINOR_VERSION</a>
+</pre>
+</div>
+<div class="refsect1">
+<a name="spice-gtk-Utilities.description"></a><h2>Description</h2>
+<p>
+Various functions for debugging and informational purposes.
+</p>
+</div>
+<div class="refsect1">
+<a name="spice-gtk-Utilities.details"></a><h2>Details</h2>
+<div class="refsect2">
+<a name="spice-util-set-debug"></a><h3>spice_util_set_debug ()</h3>
+<pre class="programlisting"><span class="returnvalue">void</span>                spice_util_set_debug                (<em class="parameter"><code><a href="../glib/glib-Basic-Types.html#gboolean"><span class="type">gboolean</span></a> enabled</code></em>);</pre>
+<p>
+Enable or disable Spice-GTK debugging messages.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term"><em class="parameter"><code>enabled</code></em> :</span></p></td>
+<td>
+<a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> or <a href="../glib/glib-Standard-Macros.html#FALSE:CAPS"><code class="literal">FALSE</code></a>
+</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="spice-util-get-version-string"></a><h3>spice_util_get_version_string ()</h3>
+<pre class="programlisting">const <a href="../glib/glib-Basic-Types.html#gchar"><span class="returnvalue">gchar</span></a> *       spice_util_get_version_string       (<em class="parameter"><code><span class="type">void</span></code></em>);</pre>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term"><span class="emphasis"><em>Returns</em></span> :</span></p></td>
+<td>Spice-GTK version as a const string.</td>
+</tr></tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="SPICE-GTK-CHECK-VERSION:CAPS"></a><h3>SPICE_GTK_CHECK_VERSION()</h3>
+<pre class="programlisting">#define             SPICE_GTK_CHECK_VERSION(major, minor, micro)</pre>
+<p>
+Compile-time version checking. Evaluates to <a href="../glib/glib-Standard-Macros.html#TRUE:CAPS"><code class="literal">TRUE</code></a> if the version
+of Spice-Gtk is greater than the required one.
+</p>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>major</code></em> :</span></p></td>
+<td>required major version</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>minor</code></em> :</span></p></td>
+<td>required minor version</td>
+</tr>
+<tr>
+<td><p><span class="term"><em class="parameter"><code>micro</code></em> :</span></p></td>
+<td>required micro version</td>
+</tr>
+</tbody>
+</table></div>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="SPICE-GTK-MAJOR-VERSION:CAPS"></a><h3>SPICE_GTK_MAJOR_VERSION</h3>
+<pre class="programlisting">#define SPICE_GTK_MAJOR_VERSION              (0)
+</pre>
+<p>
+Spice-Gtk major version component (e.g. 1 if version is 1.2.3)
+</p>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="SPICE-GTK-MICRO-VERSION:CAPS"></a><h3>SPICE_GTK_MICRO_VERSION</h3>
+<pre class="programlisting">#define SPICE_GTK_MICRO_VERSION              (0)
+</pre>
+<p>
+Spice-Gtk micro version component (e.g. 3 if version is 1.2.3)
+</p>
+<p class="since">Since 0.24</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="SPICE-GTK-MINOR-VERSION:CAPS"></a><h3>SPICE_GTK_MINOR_VERSION</h3>
+<pre class="programlisting">#define SPICE_GTK_MINOR_VERSION              (25)
+</pre>
+<p>
+Spice-Gtk minor version component (e.g. 2 if version is 1.2.3)
+</p>
+<p class="since">Since 0.24</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>
+          Generated by GTK-Doc V1.19</div>
+</body>
+</html>

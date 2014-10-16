@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libxcb-shape.so.0.0.0
+/usr/share
+/usr/share/doc/libxcb-shape0
+/usr/share/doc/libxcb-shape0/changelog.Debian.gz
+/usr/share/doc/libxcb-shape0/copyright
+/usr/lib/arm-linux-gnueabi/libxcb-shape.so.0

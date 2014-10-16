@@ -1,0 +1,6 @@
+969110b905377ead4f6a29e823297af4  usr/lib/libsocks.a
+7e0484001fb1bb2e31571fd18b51916e  usr/lib/libsocks.so.4.3
+4d486e3f8b83afd3f42c8480ed4d540b  usr/share/doc/libsocks4/changelog.Debian.gz
+9e18cca8b3b0c1796f7e24fa3b05ec0a  usr/share/doc/libsocks4/changelog.gz
+228e7ea04cb2484c6addef61991d2a04  usr/share/doc/libsocks4/copyright
+f687ab24b673cde867956ddc3f3b1e40  usr/share/lintian/overrides/libsocks4

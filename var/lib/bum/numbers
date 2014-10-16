@@ -1,0 +1,9 @@
+01 -01 bootlogs
+02 01 libvirt-guests
+01 -01 motd
+01 02 libvirtd
+01 01 pcscd
+01 01 cups
+02 02 network-manager
+03 01 openvpn
+01 01 ctxusbd

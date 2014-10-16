@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Icon=gnome-session-halt
+Name=Shutdown
+Exec=shutdown -h now
+Comment=

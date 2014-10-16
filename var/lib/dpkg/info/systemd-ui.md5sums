@@ -1,0 +1,6 @@
+de8b6c7eab7749e90683fbf4015900d8  usr/bin/systemadm
+d973da15f7844074f2e0c88e721010b5  usr/bin/systemd-gnome-ask-password-agent
+1aba30bb0e4360f4d662af0efb5e3b6d  usr/share/applications/systemadm.desktop
+0785dff6d531a302b535e7a1c8955a0f  usr/share/doc/systemd-ui/changelog.Debian.gz
+36cec8794369420e6750cefd409f48e2  usr/share/doc/systemd-ui/copyright
+1fed7c35a95d99ff3b78c5fd88ff702c  usr/share/man/man1/systemadm.1.gz

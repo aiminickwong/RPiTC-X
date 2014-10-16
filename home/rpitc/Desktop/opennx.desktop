@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Name=OpenNX
+Categories=Application;
+Icon=/usr/share/pixmaps/opennx.png
+Exec=/usr/bin/opennx

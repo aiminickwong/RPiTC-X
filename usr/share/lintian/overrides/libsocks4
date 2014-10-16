@@ -1,0 +1,1 @@
+libsocks4: non-dev-pkg-with-shlib-symlink usr/lib/libsocks.so.4.3 usr/lib/libsocks.so

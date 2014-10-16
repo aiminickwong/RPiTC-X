@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=XFreeRDP Example!
+Exec=xfreerdp /v:192.168.0.100 /size:1440x900 /u:USERNAME /p:PASSWORD +compression /sound:sys:alsa
+Type=Application
+Terminal=False
+Icon=/usr/share/pixmaps/RDesktop.png
+Categories=Application;

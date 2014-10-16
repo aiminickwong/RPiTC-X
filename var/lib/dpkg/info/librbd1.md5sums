@@ -1,0 +1,6 @@
+295f331b861ee26ea896961e609a958e  lib/udev/rules.d/50-rbd.rules
+b0035173d931d0ad9f70be784954a94f  usr/bin/ceph-rbdnamer
+d1dc8beee2d6545a11191234df32d57f  usr/lib/arm-linux-gnueabi/librbd.so.1.0.0
+0902e58ce0e5fd2ab8a24860b44ece24  usr/share/doc/librbd1/changelog.Debian.gz
+c70925ce93826c0562aef5d933abe8b1  usr/share/doc/librbd1/copyright
+db7d6343d69ad74d09c8edaf8a12aafe  usr/share/man/man8/ceph-rbdnamer.8.gz

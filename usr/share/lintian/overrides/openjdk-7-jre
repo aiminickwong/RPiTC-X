@@ -1,0 +1,5 @@
+# OpenJDK uses $ORIGIN to find shared libs in JAVA_HOME
+openjdk-7-jre binary: binary-or-shlib-defines-rpath
+
+# these are in the -jre-headless package, -jre depends on it
+openjdk-7-jre binary: desktop-command-not-in-package

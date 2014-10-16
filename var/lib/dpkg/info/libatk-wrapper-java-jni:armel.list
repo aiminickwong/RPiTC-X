@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/jni
+/usr/lib/arm-linux-gnueabi/jni/libatk-wrapper.so.0.0.13
+/usr/share
+/usr/share/doc/libatk-wrapper-java-jni
+/usr/share/doc/libatk-wrapper-java-jni/changelog.Debian.gz
+/usr/share/doc/libatk-wrapper-java-jni/copyright
+/usr/lib/arm-linux-gnueabi/jni/libatk-wrapper.so
+/usr/lib/arm-linux-gnueabi/jni/libatk-wrapper.so.0

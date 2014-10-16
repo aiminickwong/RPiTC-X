@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="apps-menu" label="Applications">
+  <item label="Iceweasel">
+    <action name="Execute"><command>iceweasel</command></action>
+  </item>
+  <item label="FileBrowser">
+    <action name="Execute"><command>pcmanfm</command></action>
+  </item>
+  <item label="LXTerminal">
+    <action name="Execute"><command>lxterminal</command></action>
+  </item>
+</menu>
+
+<menu id="rpitc-apps" label="RPi-TC Apps">
+  <item label="Citrix Receiver 13">
+    <action name="Execute"><command>/opt/Citrix/ICAClient/selfservice</command></action>
+  </item>
+  <item label="VMWare View Client 2.3.4">
+    <action name="Execute"><command>vmware-view</command></action>
+  </item>
+  <item label="Quest vWorkspaces 7.00b1">
+    <action name="Execute"><command>connmanager</command></action>
+  </item>
+  <item label="SPICE Client 0.25">
+    <action name="Execute"><command>spicy</command></action>
+  </item>
+  <item label="OpenNX 0.16">
+    <action name="Execute"><command>opennx</command></action>
+  </item>
+  <item label="X2GO Client 4.0.2.1">
+    <action name="Execute"><command>x2goclient</command></action>
+  </item>
+  <separator />
+  <item label="RDesktop 1.8.2">
+    <action name="Execute"><command>lxterminal -e "rdesktop -u USERNAME -p PASSWORD -g 1440x900 -E -x l -z -P -r sound:local:alsa:default 192.168.0.100"</command></action>
+  </item>
+  <item label="xFreeRDP">
+    <action name="Execute"><command>lxterminal -e "xfreerdp /v:192.168.0.100 /size:1440x900 /u:USERNAME /p:PASSWORD +compression /sound:sys:alsa"</command></action>
+  </item>
+  <separator />
+  <item label="x3270">
+    <action name="Execute"><command>x3270</command></action>
+  </item>
+  <item label="tn5250">
+    <action name="Execute"><command>lxterminal -e "tn5250 [options] HOST[:PORT]"</command></action>
+  </item>
+</menu>
+
+<menu id="conf-menu" label="Configurations">
+  <item label="Desktop Settings">
+    <action name="Execute">
+      <startupnotify><enabled>yes</enabled></startupnotify>
+      <command>pcmanfm --desktop-pref</command>
+    </action>
+  </item>
+  <item label="Window Management Settings">
+    <action name="Execute">
+      <startupnotify><enabled>yes</enabled><icon>openbox</icon></startupnotify>
+      <command>obconf</command>
+    </action>
+  </item>
+  <item label="Change Keyboard Configuration">
+    <action name="Execute"><command>leafpad ~/.xsessionrc</command></action>
+  </item>
+  <item label="Change Locales">
+    <action name="Execute"><command>lxterminal -e "sudo dpkg-reconfigure locales"</command></action>
+  </item>
+  <item label="Service Management">
+    <action name="Execute"><command>gksudo /usr/bin/bum</command></action>
+  </item>
+  <item label="Print Management">
+    <action name="Execute"><command>gksudo /usr/bin/system-config-printer</command></action>
+  </item>
+  <item label="Change Autostart Applications">
+    <action name="Execute"><command>leafpad ~/.config/lxsession/LXDE/autostart</command></action>
+  </item>
+  <item label="Edit This Menu">
+    <action name="Execute"><command>leafpad ~/.config/openbox/menu.xml</command></action>
+  </item>
+  <item label="Reload Menu Files">
+    <action name="Reconfigure" />
+  </item>
+</menu>
+
+<menu id="root-menu" label="RaspberryPi - ThinClient">
+  <separator label="RaspberryPi - ThinClient" />
+  <menu id="rpitc-apps" />
+  <separator />
+  <menu id="apps-menu" />
+  <separator />
+  <menu id="conf-menu" />
+  <separator />
+  <menu id="client-list-menu" />
+  <separator />
+  <item label="Shutdown">
+    <action name="Execute"><command>lxterminal -e "sudo shutdown -h now"</command></action>
+  </item>
+  <item label="Reboot">
+    <action name="Execute"><command>lxterminal -e "sudo shutdown -r now"</command></action>
+  </item>
+</menu>
+
+</openbox_menu>
+

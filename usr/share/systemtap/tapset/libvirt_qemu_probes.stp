@@ -1,0 +1,69 @@
+# src/qemu/qemu_monitor.c
+
+probe libvirt.qemu.monitor_new = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_new") {
+  mon = $arg1;
+  refs = $arg2;
+  fd = $arg3;
+}
+
+probe libvirt.qemu.monitor_ref = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_ref") {
+  mon = $arg1;
+  refs = $arg2;
+}
+
+probe libvirt.qemu.monitor_unref = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_unref") {
+  mon = $arg1;
+  refs = $arg2;
+}
+
+probe libvirt.qemu.monitor_close = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_close") {
+  monm = $arg1;
+  refs = $arg2;
+}
+
+probe libvirt.qemu.monitor_send_msg = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_send_msg") {
+  mon = $arg1;
+  msg = user_string($arg2);
+  fd = $arg3;
+}
+
+probe libvirt.qemu.monitor_recv_reply = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_recv_reply") {
+  mon = $arg1;
+  reply = user_string($arg2);
+}
+
+probe libvirt.qemu.monitor_recv_event = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_recv_event") {
+  mon = $arg1;
+  event = user_string($arg2);
+}
+
+probe libvirt.qemu.monitor_io_process = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_io_process") {
+  mon = $arg1;
+  buf = user_string($arg2);
+  len = $arg3;
+}
+
+probe libvirt.qemu.monitor_io_read = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_io_read") {
+  mon = $arg1;
+  buf = user_string($arg2);
+  len = $arg3;
+  ret = $arg4;
+  errno = $arg5;
+}
+
+probe libvirt.qemu.monitor_io_write = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_io_write") {
+  mon = $arg1;
+  buf = user_string($arg2);
+  len = $arg3;
+  ret = $arg4;
+  errno = $arg5;
+}
+
+probe libvirt.qemu.monitor_io_send_fd = process("/usr/lib/libvirt/connection-driver/libvirt_driver_qemu.so").mark("qemu_monitor_io_send_fd") {
+  mon = $arg1;
+  fd = $arg2;
+  ret = $arg3;
+  errno = $arg4;
+}
+
+

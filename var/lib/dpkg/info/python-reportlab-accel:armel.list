@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/lib
+/usr/lib/python2.7
+/usr/lib/python2.7/dist-packages
+/usr/lib/python2.7/dist-packages/reportlab
+/usr/lib/python2.7/dist-packages/reportlab/lib
+/usr/lib/python2.7/dist-packages/reportlab/lib/_rl_accel.arm-linux-gnueabi.so
+/usr/lib/python2.7/dist-packages/reportlab/lib/pyHnj.arm-linux-gnueabi.so
+/usr/share
+/usr/share/doc/python-reportlab-accel
+/usr/share/doc/python-reportlab-accel/changelog.Debian.gz
+/usr/share/doc/python-reportlab-accel/copyright

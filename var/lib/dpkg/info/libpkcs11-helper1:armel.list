@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libpkcs11-helper.so.1.0.0
+/usr/share
+/usr/share/doc/libpkcs11-helper1
+/usr/share/doc/libpkcs11-helper1/changelog.Debian.gz
+/usr/share/doc/libpkcs11-helper1/AUTHORS
+/usr/share/doc/libpkcs11-helper1/README
+/usr/share/doc/libpkcs11-helper1/copyright
+/usr/share/doc/libpkcs11-helper1/THANKS
+/usr/share/doc/libpkcs11-helper1/changelog.gz
+/usr/share/man
+/usr/share/man/man8
+/usr/share/man/man8/pkcs11-helper-1.8.gz
+/usr/lib/arm-linux-gnueabi/libpkcs11-helper.so.1

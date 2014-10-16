@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabi
+/usr/lib/arm-linux-gnueabi/libboost_atomic.so.1.55.0
+/usr/share
+/usr/share/doc/libboost-atomic1.55.0
+/usr/share/doc/libboost-atomic1.55.0/changelog.Debian.gz
+/usr/share/doc/libboost-atomic1.55.0/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libboost-atomic1.55.0

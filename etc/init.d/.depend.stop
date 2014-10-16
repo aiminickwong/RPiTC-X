@@ -1,0 +1,10 @@
+TARGETS = pcscd openvpn libvirt-guests cups fake-hwclock motd bootlogs ctxusbd urandom hwclock.sh alsa-utils libvirtd network-manager sendsigs umountnfs.sh networking umountfs umountroot halt reboot
+libvirtd: libvirt-guests
+network-manager: openvpn
+sendsigs: pcscd openvpn libvirt-guests alsa-utils network-manager libvirtd
+umountnfs.sh: pcscd openvpn libvirt-guests alsa-utils network-manager sendsigs libvirtd
+networking: umountnfs.sh openvpn
+umountfs: pcscd urandom umountnfs.sh openvpn libvirt-guests alsa-utils network-manager libvirtd networking hwclock.sh
+umountroot: fake-hwclock umountfs
+halt: umountroot
+reboot: umountroot

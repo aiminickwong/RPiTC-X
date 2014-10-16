@@ -1,0 +1,11 @@
+3489826016b6ddfb89751ffd32f7c9cb  usr/bin/desktop-file-install
+58708a65b244b7b4ecd267d2ffed13cd  usr/bin/desktop-file-validate
+60f76957d25a2538add29975432f54d0  usr/bin/update-desktop-database
+1a249595330940101bfc14eb53c6fb26  usr/share/doc/desktop-file-utils/changelog.Debian.gz
+9ee2e02f37db776f1f9f536372068313  usr/share/doc/desktop-file-utils/changelog.gz
+28e981fe80644a2c7cdac64f5afa8d5e  usr/share/doc/desktop-file-utils/copyright
+7ee39433a9b887f16e6be24575404334  usr/share/emacs/site-lisp/desktop-entry-mode.el
+0bf1c6336a9a80db18d40856ec016ca4  usr/share/lintian/overrides/desktop-file-utils
+64668c4855ba6281b197d1eb6247e6af  usr/share/man/man1/desktop-file-install.1.gz
+d3a62a6682cd933ce0b71a243705f180  usr/share/man/man1/desktop-file-validate.1.gz
+dda1033ff908de6af57d8c409168d27d  usr/share/man/man1/update-desktop-database.1.gz

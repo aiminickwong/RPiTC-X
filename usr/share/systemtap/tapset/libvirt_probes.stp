@@ -1,0 +1,295 @@
+# src/util/event_poll.c
+
+probe libvirt.event_poll.add_handle = process("/usr/lib/libvirt.so").mark("event_poll_add_handle") {
+  watch = $arg1;
+  fd = $arg2;
+  events = $arg3;
+  cb = $arg4;
+  opaque = $arg5;
+  ff = $arg6;
+}
+
+probe libvirt.event_poll.update_handle = process("/usr/lib/libvirt.so").mark("event_poll_update_handle") {
+  watch = $arg1;
+  events = $arg2;
+}
+
+probe libvirt.event_poll.remove_handle = process("/usr/lib/libvirt.so").mark("event_poll_remove_handle") {
+  watch = $arg1;
+}
+
+probe libvirt.event_poll.dispatch_handle = process("/usr/lib/libvirt.so").mark("event_poll_dispatch_handle") {
+  watch = $arg1;
+  events = $arg2;
+}
+
+probe libvirt.event_poll.purge_handle = process("/usr/lib/libvirt.so").mark("event_poll_purge_handle") {
+  watch = $arg1;
+}
+
+probe libvirt.event_poll.add_timeout = process("/usr/lib/libvirt.so").mark("event_poll_add_timeout") {
+  timer = $arg1;
+  frequency = $arg2;
+  cb = $arg3;
+  opaque = $arg4;
+  ff = $arg5;
+}
+
+probe libvirt.event_poll.update_timeout = process("/usr/lib/libvirt.so").mark("event_poll_update_timeout") {
+  timer = $arg1;
+  frequency = $arg2;
+}
+
+probe libvirt.event_poll.remove_timeout = process("/usr/lib/libvirt.so").mark("event_poll_remove_timeout") {
+  timer = $arg1;
+}
+
+probe libvirt.event_poll.dispatch_timeout = process("/usr/lib/libvirt.so").mark("event_poll_dispatch_timeout") {
+  timer = $arg1;
+}
+
+probe libvirt.event_poll.purge_timeout = process("/usr/lib/libvirt.so").mark("event_poll_purge_timeout") {
+  timer = $arg1;
+}
+
+probe libvirt.event_poll.run = process("/usr/lib/libvirt.so").mark("event_poll_run") {
+  nfds = $arg1;
+  timeout = $arg2;
+}
+
+
+# src/util/virobject.c
+
+probe libvirt.object.new = process("/usr/lib/libvirt.so").mark("object_new") {
+  obj = $arg1;
+  klassname = user_string($arg2);
+}
+
+probe libvirt.object.ref = process("/usr/lib/libvirt.so").mark("object_ref") {
+  obj = $arg1;
+}
+
+probe libvirt.object.unref = process("/usr/lib/libvirt.so").mark("object_unref") {
+  obj = $arg1;
+}
+
+probe libvirt.object.dispose = process("/usr/lib/libvirt.so").mark("object_dispose") {
+  obj = $arg1;
+}
+
+
+# src/rpc/virnetsocket.c
+
+probe libvirt.rpc.socket_new = process("/usr/lib/libvirt.so").mark("rpc_socket_new") {
+  sock = $arg1;
+  fd = $arg2;
+  errfd = $arg3;
+  pid = $arg4;
+  localAddr = user_string($arg5);
+  remoteAddr = user_string($arg6);
+}
+
+probe libvirt.rpc.socket_dispose = process("/usr/lib/libvirt.so").mark("rpc_socket_dispose") {
+  sock = $arg1;
+}
+
+probe libvirt.rpc.socket_send_fd = process("/usr/lib/libvirt.so").mark("rpc_socket_send_fd") {
+  sock = $arg1;
+  fd = $arg2;
+}
+
+probe libvirt.rpc.socket_recv_fd = process("/usr/lib/libvirt.so").mark("rpc_socket_recv_fd") {
+  sock = $arg1;
+  fd = $arg2;
+}
+
+
+# src/rpc/virnetserverclient.c
+
+probe libvirt.rpc.server_client_new = process("/usr/lib/libvirt.so").mark("rpc_server_client_new") {
+  client = $arg1;
+  sock = $arg2;
+}
+
+probe libvirt.rpc.server_client_dispose = process("/usr/lib/libvirt.so").mark("rpc_server_client_dispose") {
+  client = $arg1;
+}
+
+probe libvirt.rpc.server_client_msg_tx_queue = process("/usr/lib/libvirt.so").mark("rpc_server_client_msg_tx_queue") {
+  client = $arg1;
+  len = $arg2;
+  prog = $arg3;
+  vers = $arg4;
+  proc = $arg5;
+  type = $arg6;
+  status = $arg7;
+  serial = $arg8;
+}
+
+probe libvirt.rpc.server_client_msg_rx = process("/usr/lib/libvirt.so").mark("rpc_server_client_msg_rx") {
+  client = $arg1;
+  len = $arg2;
+  prog = $arg3;
+  vers = $arg4;
+  proc = $arg5;
+  type = $arg6;
+  status = $arg7;
+  serial = $arg8;
+}
+
+
+# src/rpc/virnetclient.c
+
+probe libvirt.rpc.client_new = process("/usr/lib/libvirt.so").mark("rpc_client_new") {
+  client = $arg1;
+  sock = $arg2;
+}
+
+probe libvirt.rpc.client_dispose = process("/usr/lib/libvirt.so").mark("rpc_client_dispose") {
+  client = $arg1;
+}
+
+probe libvirt.rpc.client_msg_tx_queue = process("/usr/lib/libvirt.so").mark("rpc_client_msg_tx_queue") {
+  client = $arg1;
+  len = $arg2;
+  prog = $arg3;
+  vers = $arg4;
+  proc = $arg5;
+  type = $arg6;
+  status = $arg7;
+  serial = $arg8;
+}
+
+probe libvirt.rpc.client_msg_rx = process("/usr/lib/libvirt.so").mark("rpc_client_msg_rx") {
+  client = $arg1;
+  len = $arg2;
+  prog = $arg3;
+  vers = $arg4;
+  proc = $arg5;
+  type = $arg6;
+  status = $arg7;
+  serial = $arg8;
+}
+
+
+# daemon/libvirtd.c
+
+probe libvirt.rpc.server_client_auth_allow = process("/usr/lib/libvirt.so").mark("rpc_server_client_auth_allow") {
+  client = $arg1;
+  authtype = $arg2;
+  identity = user_string($arg3);
+}
+
+probe libvirt.rpc.server_client_auth_deny = process("/usr/lib/libvirt.so").mark("rpc_server_client_auth_deny") {
+  client = $arg1;
+  authtype = $arg2;
+  identity = user_string($arg3);
+}
+
+probe libvirt.rpc.server_client_auth_fail = process("/usr/lib/libvirt.so").mark("rpc_server_client_auth_fail") {
+  client = $arg1;
+  authtype = $arg2;
+}
+
+
+# src/rpc/virnettlscontext.c
+
+probe libvirt.rpc.tls_context_new = process("/usr/lib/libvirt.so").mark("rpc_tls_context_new") {
+  ctxt = $arg1;
+  cacert = user_string($arg2);
+  cacrl = user_string($arg3);
+  cert = user_string($arg4);
+  key = user_string($arg5);
+  sanityCheckCert = $arg6;
+  requireValidCert = $arg7;
+  isServer = $arg8;
+}
+
+probe libvirt.rpc.tls_context_dispose = process("/usr/lib/libvirt.so").mark("rpc_tls_context_dispose") {
+  ctxt = $arg1;
+}
+
+probe libvirt.rpc.tls_context_session_allow = process("/usr/lib/libvirt.so").mark("rpc_tls_context_session_allow") {
+  ctxt = $arg1;
+  sess = $arg2;
+  dname = user_string($arg3);
+}
+
+probe libvirt.rpc.tls_context_session_deny = process("/usr/lib/libvirt.so").mark("rpc_tls_context_session_deny") {
+  ctxt = $arg1;
+  sess = $arg2;
+  dname = user_string($arg3);
+}
+
+probe libvirt.rpc.tls_context_session_fail = process("/usr/lib/libvirt.so").mark("rpc_tls_context_session_fail") {
+  ctxt = $arg1;
+  sess = $arg2;
+}
+
+probe libvirt.rpc.tls_session_new = process("/usr/lib/libvirt.so").mark("rpc_tls_session_new") {
+  sess = $arg1;
+  ctxt = $arg2;
+  hostname = user_string($arg3);
+  isServer = $arg4;
+}
+
+probe libvirt.rpc.tls_session_dispose = process("/usr/lib/libvirt.so").mark("rpc_tls_session_dispose") {
+  sess = $arg1;
+}
+
+probe libvirt.rpc.tls_session_handshake_pass = process("/usr/lib/libvirt.so").mark("rpc_tls_session_handshake_pass") {
+  sess = $arg1;
+}
+
+probe libvirt.rpc.tls_session_handshake_fail = process("/usr/lib/libvirt.so").mark("rpc_tls_session_handshake_fail") {
+  sess = $arg1;
+}
+
+
+# src/rpc/virkeepalive.c
+
+probe libvirt.rpc.keepalive_new = process("/usr/lib/libvirt.so").mark("rpc_keepalive_new") {
+  ka = $arg1;
+  client = $arg2;
+}
+
+probe libvirt.rpc.keepalive_dispose = process("/usr/lib/libvirt.so").mark("rpc_keepalive_dispose") {
+  ka = $arg1;
+}
+
+probe libvirt.rpc.keepalive_start = process("/usr/lib/libvirt.so").mark("rpc_keepalive_start") {
+  ka = $arg1;
+  client = $arg2;
+  interval = $arg3;
+  count = $arg4;
+}
+
+probe libvirt.rpc.keepalive_stop = process("/usr/lib/libvirt.so").mark("rpc_keepalive_stop") {
+  ka = $arg1;
+  client = $arg2;
+}
+
+probe libvirt.rpc.keepalive_send = process("/usr/lib/libvirt.so").mark("rpc_keepalive_send") {
+  ka = $arg1;
+  client = $arg2;
+  prog = $arg3;
+  vers = $arg4;
+  proc = $arg5;
+}
+
+probe libvirt.rpc.keepalive_received = process("/usr/lib/libvirt.so").mark("rpc_keepalive_received") {
+  ka = $arg1;
+  client = $arg2;
+  prog = $arg3;
+  vers = $arg4;
+  proc = $arg5;
+}
+
+probe libvirt.rpc.keepalive_timeout = process("/usr/lib/libvirt.so").mark("rpc_keepalive_timeout") {
+  ka = $arg1;
+  client = $arg2;
+  coundToDeath = $arg3;
+  idle = $arg4;
+}
+
+

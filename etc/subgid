@@ -1,0 +1,11 @@
+libuuid:100000:65536
+systemd-timesync:165536:65536
+systemd-network:231072:65536
+systemd-resolve:296608:65536
+systemd-bus-proxy:362144:65536
+messagebus:427680:65536
+sshd:493216:65536
+ntp:558752:65536
+rpitc:624288:65536
+libvirt-qemu:689824:65536
+hplip:755360:65536

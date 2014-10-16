@@ -1,0 +1,11 @@
+/.
+/lib
+/lib/arm-linux-gnueabi
+/lib/arm-linux-gnueabi/libaudit.so.1.0.0
+/usr
+/usr/share
+/usr/share/doc/libaudit1
+/usr/share/doc/libaudit1/changelog.Debian.gz
+/usr/share/doc/libaudit1/copyright
+/usr/share/doc/libaudit1/changelog.gz
+/lib/arm-linux-gnueabi/libaudit.so.1

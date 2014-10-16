@@ -1,0 +1,23 @@
+#################DONT TOUCH THIS LINE#################
+@pcmanfm --desktop --profile LXDE
+######################################################
+
+##########ADD YOUR AUTOSTART APPZ BELOW HERE##########
+#Modify parameters to fit your environment, then remove # char to uncomment. Example:
+#@/opt/Citrix/ICAClient/selfservice
+#@rdesktop -u USERNAME -p PASSWORD -g 1280x720 -E -x l -z -P -r sound:local:alsa:default 192.168.0.100
+#@xfreerdp /v:192.168.0.100 /size:1280x720 /u:USERNAME /p:PASSWORD +compression /sound:sys:alsa
+#@spicy
+#@x2goclient
+######################################################
+
+################DEFAULT AUTOSTART APPZ################
+#show reame please file:
+#@leafpad /opt/PLEASE_README
+#kill boot intro as soon desktop is ready:
+@/opt/killintro.sh
+#VNC server
+@x11vnc -noipv6 -forever -usepw -display :0
+#Conky
+@/home/rpitc/.start-conky
+######################################################

@@ -1,0 +1,11 @@
+xkeymap.keycode.211=0x073
+sound.enablePulseAudio = "TRUE"
+
+#Set this to make sure numlock/capslock lights
+#function properly during the view session
+mks.keyboard.useXkbSetNamedIndicator = "TRUE"
+
+#Uncomment below to disable apollo keyboard volume/mute keys 
+#xkeymap.keycode.121=0x043 # Maps Apollo keyboard special function mute key to just F9.  * Hence removing the special functionality
+#xkeymap.keycode.122=0x044 # Maps Apollo keyboard special function decrease vol. key to just F10 *
+#xkeymap.keycode.123=0x057 # Maps Apollo keyboard special function increase vol. key to just F11 *

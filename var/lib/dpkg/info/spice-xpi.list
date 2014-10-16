@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/lib
+/usr/lib/mozilla
+/usr/lib/mozilla/install.rdf
+/usr/lib/mozilla/plugins
+/usr/lib/mozilla/plugins/npSpiceConsole.la
+/usr/lib/mozilla/plugins/npSpiceConsole.so
+/usr/lib/mozilla/plugins/npSpiceConsole.a
+/usr/share
+/usr/share/spice-xpi
+/usr/share/spice-xpi/test.html

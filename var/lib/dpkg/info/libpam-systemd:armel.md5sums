@@ -1,0 +1,6 @@
+f41974e0c95b5556a0dfd0af8f2865b5  lib/arm-linux-gnueabi/security/pam_systemd.so
+8b9e4dfbba90ca792744218249607822  usr/share/doc/libpam-systemd/changelog.Debian.armel.gz
+2722ef9c057ce43a1310bbeb253d84ae  usr/share/doc/libpam-systemd/changelog.Debian.gz
+9b44da71731b94cb1b136501d33a2e23  usr/share/doc/libpam-systemd/copyright
+c85f14042c9ef96693a8ff394dd4148a  usr/share/man/man8/pam_systemd.8.gz
+9dfe5c25c668641a5b9c776e22588ec9  usr/share/pam-configs/systemd

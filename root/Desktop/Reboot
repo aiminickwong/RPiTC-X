@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Icon=gnome-session-reboot
+Name=Reboot
+Exec=shutdown -r now
+Comment=

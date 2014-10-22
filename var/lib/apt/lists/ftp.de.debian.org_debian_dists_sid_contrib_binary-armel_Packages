@@ -1,10 +1,10 @@
 Package: alien-arena
 Source: alien-arena (7.66+dfsg-2)
-Version: 7.66+dfsg-2+b1
+Version: 7.66+dfsg-2+b2
 Installed-Size: 2415
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Architecture: armel
-Depends: libc6 (>= 2.17), libcurl3-gnutls (>= 7.16.2), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.4.0), libjpeg62 (>= 1:1.3.1), libogg0 (>= 1.0rc3), libstdc++6 (>= 4.3.0), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libx11-6, libxxf86vm1, zlib1g (>= 1:1.1.4), libopenal1, alien-arena-data
+Depends: libc6 (>= 2.17), libcurl3-gnutls (>= 7.16.2), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.4.0), libjpeg62-turbo (>= 1:1.3.1), libogg0 (>= 1.0rc3), libstdc++6 (>= 4.3.0), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libx11-6, libxxf86vm1, zlib1g (>= 1:1.1.4), libopenal1, alien-arena-data
 Description: Standalone 3D first person online deathmatch shooter
 Homepage: http://red.planetarena.org
 Description-md5: de2b3d0db5845c79b22ffc0c38842f1b
@@ -14,19 +14,19 @@ Tag: game::fps, hardware::input:keyboard, hardware::input:mouse,
  x11::application
 Section: contrib/games
 Priority: extra
-Filename: pool/contrib/a/alien-arena/alien-arena_7.66+dfsg-2+b1_armel.deb
-Size: 789240
-MD5sum: 329039fcb6a89c50e3dc20c5f4044d27
-SHA1: c7ec995c9b882dcc297a1c991ca0cb018db3774b
-SHA256: 0fdc67e1c5e939fac0d448f8c057dc7802551956d570be9bb3a537d3a9037dc6
+Filename: pool/contrib/a/alien-arena/alien-arena_7.66+dfsg-2+b2_armel.deb
+Size: 790324
+MD5sum: 9b1694f30c4d46e7a098e77832946ed1
+SHA1: 7f1eadba89f7665cd95711f32ee8a045552ead30
+SHA256: 7e8f1563907092af45d08b23d56a22fc383af8da9d482c12ad23bcf422c2003c
 
 Package: alien-arena-server
 Source: alien-arena (7.66+dfsg-2)
-Version: 7.66+dfsg-2+b1
+Version: 7.66+dfsg-2+b2
 Installed-Size: 666
 Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
 Architecture: armel
-Depends: libc6 (>= 2.17), libjpeg62 (>= 1:1.3.1), ruby, alien-arena-data
+Depends: libc6 (>= 2.17), libjpeg62-turbo (>= 1:1.3.1), ruby, alien-arena-data
 Description: Dedicated server for Alien Arena
 Homepage: http://red.planetarena.org
 Description-md5: 5096fa975d49e1d2781f93bd7781f913
@@ -35,11 +35,11 @@ Tag: game::fps, implemented-in::c, implemented-in::ruby,
  network::server, role::program, use::gameplaying
 Section: contrib/games
 Priority: extra
-Filename: pool/contrib/a/alien-arena/alien-arena-server_7.66+dfsg-2+b1_armel.deb
-Size: 243328
-MD5sum: 9f9fcd7aa14661e07ca5a275b62af042
-SHA1: 66e5c6064e30eb8cb80e9cbf96100c89c0b4dfdd
-SHA256: 9476cb483dff6a99f40a32c794cfcf3dc55674d6696eeae136e3dc8543588842
+Filename: pool/contrib/a/alien-arena/alien-arena-server_7.66+dfsg-2+b2_armel.deb
+Size: 242612
+MD5sum: 32dd3fff55760bcecfa29789918c9a33
+SHA1: 02a2a51206860688d4a64a678dda34bd081d831a
+SHA256: b8026171ea516f19d12f6ac80d42793065a7fdb594f03e78c13a139a709c867f
 
 Package: alsa-firmware-loaders
 Source: alsa-tools
@@ -62,11 +62,11 @@ SHA256: 518f54c3f460b3859c98da9394c8834c527cf8e462c26ce5f6675f4e148c0f97
 
 Package: amoeba
 Source: amoeba (1.1-26)
-Version: 1.1-26+b1
+Version: 1.1-26+b2
 Installed-Size: 205
 Maintainer: Steinar H. Gunderson <sesse@debian.org>
 Architecture: armel
-Depends: libc6 (>= 2.15), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libglu1-mesa | libglu1, libjpeg62 (>= 1:1.3.1), libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.3.0), libvorbisfile3 (>= 1.1.2), libx11-6, libxxf86vm1, zlib1g (>= 1:1.1.4), amoeba-data
+Depends: libc6 (>= 2.15), libexpat1 (>= 2.0.1), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgl1-mesa-glx | libgl1, libglu1-mesa | libglu1, libjpeg62-turbo (>= 1:1.3.1), libpng12-0 (>= 1.2.13-4), libstdc++6 (>= 4.3.0), libvorbisfile3 (>= 1.1.2), libx11-6, libxxf86vm1, zlib1g (>= 1:1.1.4), amoeba-data
 Recommends: libgtk2.0-0
 Conflicts: mesag3
 Description: fast-paced, polished OpenGL demonstration by Excess
@@ -75,11 +75,11 @@ Tag: game::demos, hardware::opengl, implemented-in::c++, interface::x11,
  role::program, uitoolkit::gtk, use::entertaining, x11::application
 Section: contrib/x11
 Priority: optional
-Filename: pool/contrib/a/amoeba/amoeba_1.1-26+b1_armel.deb
-Size: 71652
-MD5sum: cfd286a7342c50029231548af0b27d8e
-SHA1: f3a71376e73a6835d23befa0a41dcd93748be243
-SHA256: fdb82e58f6833af2433dad98658eb5c03cfc5322cfa3ffa516c041093d8d19d8
+Filename: pool/contrib/a/amoeba/amoeba_1.1-26+b2_armel.deb
+Size: 71918
+MD5sum: 33421da642e60c639b8ee58c2483f195
+SHA1: 3769bfbab303f87fe5146b5b0ed094289db9e89e
+SHA256: f1ee3d5b6109f185c9987dd07b5e7446a5d5392fe22a725510e6422e6c7bb858
 
 Package: assaultcube
 Version: 1.1.0.4+dfsg2-1
@@ -324,8 +324,8 @@ SHA1: 3aefc10830ec00dbcfaa988cb70adc6dda141c04
 SHA256: c7d6d11fdb88f92a499b5f94eca5fb9846d383d027b05803cce4e0bd9e85a826
 
 Package: cicero
-Version: 0.7.2-2
-Installed-Size: 200
+Version: 0.7.2-3
+Installed-Size: 201
 Maintainer: Debian Accessibility Team <debian-accessibility@lists.debian.org>
 Architecture: all
 Depends: python (>= 2.3), mbrola-fr4, sox, oss-compat
@@ -335,11 +335,11 @@ Description-md5: fc49eb778e57e68629157bb32fd19f99
 Tag: accessibility::speech, culture::british, culture::french, role::program
 Section: contrib/sound
 Priority: optional
-Filename: pool/contrib/c/cicero/cicero_0.7.2-2_all.deb
-Size: 94406
-MD5sum: 9138300cf35b4b3b2707f34d6604fc73
-SHA1: 475c8cddf9a8a47592ba916e9c18869b3f4ac4c4
-SHA256: 16d9b836629bd9bc5d1e6b4085c260c90643617a6baf59212eee51caa4388d5c
+Filename: pool/contrib/c/cicero/cicero_0.7.2-3_all.deb
+Size: 89866
+MD5sum: 1f61920bd0bd6705da46ea900572bb09
+SHA1: 58de7b0d97d8ba0311686d76c42361a29447b778
+SHA256: ead0db46deced964bb116f1e8314f64de3209efd803d8c8de99fc048e3a59da3
 
 Package: cl-sql-oracle
 Source: cl-sql
@@ -1609,7 +1609,7 @@ SHA1: 3341ad7f299df1cb0e4f7e4f17f34b2b425dd807
 SHA256: a70b4bf84ecca9c5f7638ce90019f8ad10cde875154b699801bf6e05ca7f0087
 
 Package: google-android-sdk-docs-installer
-Version: 20.0.0.1
+Version: 20.0.0.2
 Installed-Size: 36
 Maintainer: Android tools Maintainer <android-tools-devel@lists.alioth.debian.org>
 Architecture: all
@@ -1619,11 +1619,11 @@ Homepage: https://developer.android.com/sdk/index.html
 Description-md5: b93423d8385730a3f937e64e4bb674d5
 Section: contrib/devel
 Priority: optional
-Filename: pool/contrib/g/google-android-sdk-docs-installer/google-android-sdk-docs-installer_20.0.0.1_all.deb
-Size: 4662
-MD5sum: 03b2e7cc8c4ec83576049a39409bde2e
-SHA1: bd358fd6367a32f85e0ecadef3a3c42c788cc8c4
-SHA256: 06b07fc1ccf62c11bc950433f341cd7a32ec10d7c637df57e9dec5b2fcfb3c52
+Filename: pool/contrib/g/google-android-sdk-docs-installer/google-android-sdk-docs-installer_20.0.0.2_all.deb
+Size: 4842
+MD5sum: b9249a6d196efe366403ee17b42eab71
+SHA1: c630c2d31bf4186bf117d03c7aa3510e2042bfed
+SHA256: 7bb1ab78981e7454a2a5934881523f34edabb040da39bf077e7aabf0fc3e4cf4
 
 Package: googleearth-package
 Version: 1.2.2
@@ -1869,29 +1869,28 @@ SHA1: 5ababc6ffae138600345babf7469c414b9e87df1
 SHA256: 98999fa4d7bc2b1fb56651a27ff4756dc3b5d58999c3288a493a3c175341df82
 
 Package: kcemu
-Source: kcemu (0.5.1+dfsg-6)
-Version: 0.5.1+dfsg-6+b1
-Installed-Size: 1044
+Version: 0.5.1+git20141014+dfsg-1
+Installed-Size: 1066
 Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
 Architecture: armel
-Depends: libc6 (>= 2.16), libcairo2 (>= 1.6.0), libgcc1 (>= 1:4.4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.22.0), libgtk2.0-0 (>= 2.16.0), libogg0 (>= 1.0rc3), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 4.6), libtheora0 (>= 1.0), libvncclient0 (>= 0.9.9), libvncserver0 (>= 0.9.9), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libx11-6, libxmu6, libxt6, libz80ex1 (>= 1.1.18), zlib1g (>= 1:1.1.4), kcemu-common
+Depends: libc6 (>= 2.16), libcairo2 (>= 1.6.0), libgcc1 (>= 1:4.4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.37.3), libgtk2.0-0 (>= 2.16.0), libogg0 (>= 1.0rc3), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libsndfile1 (>= 1.0.20), libstdc++6 (>= 4.9), libtheora0 (>= 1.0), libvncclient0 (>= 0.9.9), libvncserver0 (>= 0.9.9), libvorbis0a (>= 1.1.2), libvorbisfile3 (>= 1.1.2), libx11-6, libxmu6, libxt6, libz80ex1 (>= 1.1.18), zlib1g (>= 1:1.1.4), kcemu-common
 Description: KC 85/4 emulator
 Multi-Arch: foreign
 Homepage: http://kcemu.sourceforge.net/
-Description-md5: 2c437f9b0edca3b618e35829a390f9ee
+Description-md5: bc08d35934d1ee9cbd3513221f2d6788
 Tag: role::program, uitoolkit::gtk
 Section: contrib/otherosfs
 Priority: optional
-Filename: pool/contrib/k/kcemu/kcemu_0.5.1+dfsg-6+b1_armel.deb
-Size: 310724
-MD5sum: a30ffd9707fdce4bf667d97e17f618d4
-SHA1: f5a758dbbb552db39e2a8c02da40fd44af60796c
-SHA256: 3ba39222ee0586e6ca39464b60340ac514a8975ee85c476b4b97b3ec9ec4bf59
+Filename: pool/contrib/k/kcemu/kcemu_0.5.1+git20141014+dfsg-1_armel.deb
+Size: 317234
+MD5sum: ee156136ae8cd8e1483b0ac4b8d89c06
+SHA1: 803d60b6b817901f32e1b5498684941356ab1640
+SHA256: 310034d251be6b7443fbada61e2166abb8727603e0aae29d523550763f381dce
 
 Package: kcemu-common
 Source: kcemu
-Version: 0.5.1+dfsg-6
-Installed-Size: 6517
+Version: 0.5.1+git20141014+dfsg-1
+Installed-Size: 6952
 Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
 Architecture: all
 Description: KC 85/4 emulator - common files
@@ -1901,11 +1900,11 @@ Description-md5: 7c3ce18196053e10d189f7b0cb465752
 Tag: role::app-data
 Section: contrib/otherosfs
 Priority: optional
-Filename: pool/contrib/k/kcemu/kcemu-common_0.5.1+dfsg-6_all.deb
-Size: 2155848
-MD5sum: ec459148e7ba80a3b305648de39fc951
-SHA1: a7ee1d1d8bda42b297cbf3ed26a0d286a0fa2652
-SHA256: 217e2b807d15579f4e64351c386005e048076256e35050653a4d67066b3572ce
+Filename: pool/contrib/k/kcemu/kcemu-common_0.5.1+git20141014+dfsg-1_all.deb
+Size: 2380640
+MD5sum: 1d489fb7443dab7a09a8cc7437839654
+SHA1: 278f71ab3fa52f3db216be822981d5a886570ad7
+SHA256: e53ad0e13c6bc96882cbd02b7b498b9e4ece7bb90fc16782103d831fa0d55596
 
 Package: kinect-audio-setup
 Version: 0.3-2
@@ -2154,13 +2153,12 @@ SHA256: 4f14c201f26352426cb28aebe1dfeb6c6f2a512451e7b2f1296d1ffeb23c9d0a
 
 Package: ttf-mscorefonts-installer
 Source: msttcorefonts
-Version: 3.5
-Installed-Size: 124
+Version: 3.6
+Installed-Size: 125
 Maintainer: Thijs Kinkhorst <thijs@debian.org>
 Architecture: all
 Provides: msttcorefonts
 Depends: wget, cabextract, xfonts-utils, debconf (>= 0.5) | debconf-2.0
-Pre-Depends: dpkg (>= 1.15.7.2)
 Recommends: fonts-liberation
 Description: Installer for Microsoft TrueType core fonts
 Multi-Arch: foreign
@@ -2168,11 +2166,11 @@ Description-md5: 3cf2bbaf676bcd51633633514c88751a
 Tag: implemented-in::shell, role::program, use::downloading, works-with::font
 Section: contrib/fonts
 Priority: optional
-Filename: pool/contrib/m/msttcorefonts/ttf-mscorefonts-installer_3.5_all.deb
-Size: 33612
-MD5sum: 960c7836022dfa3ad560a120cba284d7
-SHA1: e0312396f873e87df1fe201e2f19c9c62281e452
-SHA256: 6576327811b106c780e92303768f5d878fff683d112c0d793ef8ec7fbd524a5b
+Filename: pool/contrib/m/msttcorefonts/ttf-mscorefonts-installer_3.6_all.deb
+Size: 37446
+MD5sum: ee98dc2154a57e9c69c61672f2fba588
+SHA1: 3cac019989de9693f96215a4dbfe37578ab13b89
+SHA256: dddc8628003e1fe2725136afd2a24afb5451e9c09556b2e6d0ff67941054469c
 
 Package: libmtj-java
 Source: mtj
@@ -2244,21 +2242,21 @@ SHA1: e847f6847ccd54c34de2f5d55cea9732308914dd
 SHA256: 277298f425ded6e995b2f9f4bb67e651fda8ec10571bbeb9967f110f5f2575ad
 
 Package: onionshare
-Version: 0.6-1
-Installed-Size: 206
+Version: 0.6-3
+Installed-Size: 208
 Maintainer: Anonymity Tools Debian Maintainers <pkg-anonymity-tools@lists.alioth.debian.org>
 Architecture: all
-Depends: python (>= 2.7), python (<< 2.8), python-flask, python-stem, torbrowser-launcher
+Depends: python (>= 2.7), python (<< 2.8), python-flask, python-stem, python-qt4, torbrowser-launcher
 Description: Share a file over Tor Hidden Services anonymously and securely.
 Homepage: https://onionshare.org
 Description-md5: cf7eb40c92bfe04f791d46e22677864e
 Section: contrib/net
 Priority: optional
-Filename: pool/contrib/o/onionshare/onionshare_0.6-1_all.deb
-Size: 39056
-MD5sum: a0561b98e6cc94484a5a49a0f253eafc
-SHA1: 9dcd02b053f2d0a90d1dd371110704a82ef4f4cf
-SHA256: 3203a7b574f10bf7cf6077fd176cb89565e15088a41e807224311f825d2b758b
+Filename: pool/contrib/o/onionshare/onionshare_0.6-3_all.deb
+Size: 39400
+MD5sum: 453d4270e4c588580be385aceff4dffd
+SHA1: e23e2195c253217b1d7a0815bc1ada5b1f6a98b0
+SHA256: c62e63c67ef885eb886b74bd5a38282344796eb5854b0458a15b3d9106d86a9a
 
 Package: opendict-plugins-lingvosoft
 Source: opendict-lingvosoft
@@ -2340,23 +2338,6 @@ Size: 97488
 MD5sum: c02c35f5960ba3bc4450b89b6d4b6b69
 SHA1: 49499ccad0a95ef578142dd060422fa8eb2bf069
 SHA256: 23b6817a9ca5e32198a9700dde5caaaa47d90cb1e8fea276df8d5e3c5ac15986
-
-Package: phoronix-test-suite
-Version: 4.8.3-1
-Installed-Size: 2110
-Maintainer: Debian QA Group <packages@qa.debian.org>
-Architecture: all
-Depends: php5-cli, php5-gd
-Description: comprehensive testing and benchmarking platform
-Homepage: http://www.phoronix-test-suite.com/
-Description-md5: e504bf5770439d0c37a92aa9af330882
-Section: contrib/utils
-Priority: optional
-Filename: pool/contrib/p/phoronix-test-suite/phoronix-test-suite_4.8.3-1_all.deb
-Size: 380536
-MD5sum: 72e361d6ecfad92e150defa35a1cb1a2
-SHA1: 454434cb15a68c3d4204e2db9dec8e838f8cd89b
-SHA256: ac0bfcd49c6a8eb4e916409df626564d52c795bf160cc8bb3950c553d3fb6878
 
 Package: playonlinux
 Version: 4.2.5-1
@@ -3458,30 +3439,30 @@ SHA1: 5daaadcebf5afb377000fe592faff4a66e80d640
 SHA256: 7c27d3b7d8a0c22df2caa7eeff66ce062fb7248c48915550298800a554fb2018
 
 Package: vice
-Version: 2.4.dfsg+2.4.7-3
-Installed-Size: 25234
+Version: 2.4.dfsg+2.4.9-2
+Installed-Size: 25054
 Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 Architecture: armel
-Depends: libasound2 (>= 1.0.18), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.24.0), libglu1-mesa | libglu1, libgtk2.0-0 (>= 2.24.0), libgtkglext1, libice6 (>= 1:1.0.0), libieee1284-3, libjpeg62 (>= 1:1.3.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpangox-1.0-0 (>= 0.0.2), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), libreadline6 (>= 6.0), libsm6, libstdc++6 (>= 4.1.1), libvte9 (>= 1:0.24.0), libx11-6, libxext6, libxmu6, libxrandr2 (>= 4.3), libxt6, libxxf86vm1, zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
+Depends: libasound2 (>= 1.0.18), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.15), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.4.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.24.0), libglu1-mesa | libglu1, libgtk2.0-0 (>= 2.24.0), libgtkglext1, libice6 (>= 1:1.0.0), libieee1284-3, libjpeg62-turbo (>= 1:1.3.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpangox-1.0-0 (>= 0.0.2), libpng12-0 (>= 1.2.13-4), libpulse0 (>= 0.99.1), libreadline6 (>= 6.0), libsm6, libstdc++6 (>= 4.1.1), libvte9 (>= 1:0.24.0), libx11-6, libxext6, libxmu6, libxrandr2 (>= 4.3), libxt6, libxxf86vm1, zlib1g (>= 1:1.1.4), dpkg (>= 1.15.4) | install-info
 Description: Versatile Commodore Emulator
 Homepage: http://vice-emu.sourceforge.net/
 Description-md5: 08c1a2e701ce8fd760ff934904ea4135
 Tag: hardware::emulation, role::program, uitoolkit::gtk
 Section: contrib/otherosfs
 Priority: optional
-Filename: pool/contrib/v/vice/vice_2.4.dfsg+2.4.7-3_armel.deb
-Size: 3247250
-MD5sum: e5d373a1e9f560af53f9787035c1f38c
-SHA1: cf7dfcc1bc37629e3deac9e155790555c77acbd4
-SHA256: 0fa182a94639a77041d6efe86cbc8ac51c764c5b12d05c53213e92db468b4f5b
+Filename: pool/contrib/v/vice/vice_2.4.dfsg+2.4.9-2_armel.deb
+Size: 3048294
+MD5sum: abe8016f66bc69ebca2a18a47eb09dca
+SHA1: b4f32f9112d0c54d84f725949d737bf51364db71
+SHA256: 8ad3db4be22992ae8e9b509208df0ad47ee9329cad719f52c0b8e3d315df32ec
 
 Package: virtualbox-dkms
 Source: virtualbox
-Version: 4.3.14-dfsg-1
-Installed-Size: 4232
+Version: 4.3.18-dfsg-1
+Installed-Size: 4406
 Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
-Depends: dkms (>= 2.1.0.0), virtualbox (>= 4.3.14-dfsg-1)
+Depends: virtualbox (>= 4.3.18-dfsg-1), dkms (>= 2.1.0.0)
 Pre-Depends: dpkg (>= 1.15.6~)
 Description: x86 virtualization solution - kernel module sources for dkms
 Homepage: http://www.virtualbox.org/
@@ -3490,19 +3471,19 @@ Tag: admin::kernel, admin::virtualization, implemented-in::c, role::source,
  use::driver
 Section: contrib/kernel
 Priority: optional
-Filename: pool/contrib/v/virtualbox/virtualbox-dkms_4.3.14-dfsg-1_all.deb
-Size: 575408
-MD5sum: 8144de9a89d422b4af37f2883761e09e
-SHA1: cd0c2eaac98c3302bb3e4bcb7655ed61540beb43
-SHA256: e48bb716b01e14716516f284d8dedc2b53b7b33a57573add3277645dd018599d
+Filename: pool/contrib/v/virtualbox/virtualbox-dkms_4.3.18-dfsg-1_all.deb
+Size: 578980
+MD5sum: 00868ef51352bef213cb55a73d28e48c
+SHA1: 843c1b6d36735df65544f0d019d6ac6e3b675ebf
+SHA256: 68d74dbed035127791e48b33c0eed6beb4665b4a333f3fb76b4c6a8d810b42aa
 
 Package: virtualbox-guest-dkms
 Source: virtualbox
-Version: 4.3.14-dfsg-1
-Installed-Size: 3533
+Version: 4.3.18-dfsg-1
+Installed-Size: 3678
 Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
-Depends: dkms (>= 2.1.0.0), virtualbox-guest-utils (>= 4.3.14-dfsg-1)
+Depends: virtualbox-guest-utils (>= 4.3.18-dfsg-1), dkms (>= 2.1.0.0)
 Pre-Depends: dpkg (>= 1.15.6~)
 Description: x86 virtualization solution - guest addition module source for dkms
 Homepage: http://www.virtualbox.org/
@@ -3510,49 +3491,49 @@ Description-md5: e15ead9377a7f1e325ded819d3cfaf8b
 Tag: admin::kernel, admin::virtualization, role::kernel
 Section: contrib/kernel
 Priority: optional
-Filename: pool/contrib/v/virtualbox/virtualbox-guest-dkms_4.3.14-dfsg-1_all.deb
-Size: 485830
-MD5sum: bc8833af40ba756fa8375df19d96b772
-SHA1: f282cd0c6a105444f39cb3b57613aeae2d65bded
-SHA256: 7000cfb65c6b6fe74216c779f93bb8e97663726f74a95548ce59b1da028dbc24
+Filename: pool/contrib/v/virtualbox/virtualbox-guest-dkms_4.3.18-dfsg-1_all.deb
+Size: 490574
+MD5sum: 44812540a3819968d5b318070d3d025f
+SHA1: 216399c9f2cfa7cc0ab2f55f6c178e1d3ec46d39
+SHA256: 4590ac1ecaecdbb596527da7c203547fd59c1ab784c284bc904a56151dc83ac7
 
 Package: virtualbox-guest-source
 Source: virtualbox
-Version: 4.3.14-dfsg-1
-Installed-Size: 633
+Version: 4.3.18-dfsg-1
+Installed-Size: 652
 Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
-Depends: build-essential, debhelper (>= 9), bzip2, kbuild, module-assistant
+Depends: build-essential, bzip2, debhelper (>= 9), kbuild, module-assistant
 Description: x86 virtualization solution - guest addition module source
 Homepage: http://www.virtualbox.org/
 Description-md5: fd60384a9f99f9f360a9dcc85b3fd6cc
 Tag: role::source
 Section: contrib/kernel
 Priority: optional
-Filename: pool/contrib/v/virtualbox/virtualbox-guest-source_4.3.14-dfsg-1_all.deb
-Size: 588170
-MD5sum: 58a800826c9c078d4d6a619aec27f704
-SHA1: cd864fd71ffaef6a703dc37e9c99fced157035aa
-SHA256: 745bcb4318ac4fe7acc220b7af5ccffdcdd66f5fc9a0a45819875599b59b474e
+Filename: pool/contrib/v/virtualbox/virtualbox-guest-source_4.3.18-dfsg-1_all.deb
+Size: 579208
+MD5sum: 75f6aca02edfc9b0524d5ba652cfcb2e
+SHA1: c61d09630f74553228882c2c1d72d3094b849c64
+SHA256: 201bd7eded30bdf23dd12d967b5dd7cf16ae2c7c5257d84482c9e9151149952c
 
 Package: virtualbox-source
 Source: virtualbox
-Version: 4.3.14-dfsg-1
-Installed-Size: 715
+Version: 4.3.18-dfsg-1
+Installed-Size: 747
 Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
-Depends: build-essential, debhelper (>= 9), bzip2, kbuild, module-assistant
+Depends: build-essential, bzip2, debhelper (>= 9), kbuild, module-assistant
 Description: x86 virtualization solution - kernel module source
 Homepage: http://www.virtualbox.org/
 Description-md5: acc86918ad52775dbe11e2ad558ba197
 Tag: admin::kernel, admin::virtualization, role::source
 Section: contrib/kernel
 Priority: optional
-Filename: pool/contrib/v/virtualbox/virtualbox-source_4.3.14-dfsg-1_all.deb
-Size: 672380
-MD5sum: 6c3fd87974b261aa8f2ff41427593ab5
-SHA1: c7f4619331cfb852b7fb7881a553a5c5162af6e2
-SHA256: 0cac8003466d9dcbe95b70c8bda00ef4964520c10043cab0c71a10e3c034be8e
+Filename: pool/contrib/v/virtualbox/virtualbox-source_4.3.18-dfsg-1_all.deb
+Size: 677108
+MD5sum: 594b92bae303ec6f0d9ce2bbd56a3e1d
+SHA1: 4cf22718333f9f2608e0bbf8ccf546e61f49f753
+SHA256: 4cb9ca09a619ce301ade3f16537b2567be5300cb08b6c7417609c10166c5b5b0
 
 Package: vmware-manager
 Version: 0.2.0-3

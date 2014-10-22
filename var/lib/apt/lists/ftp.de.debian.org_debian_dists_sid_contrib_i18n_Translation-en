@@ -1439,25 +1439,6 @@ Description-en: WikiWikiWeb clone written in Java
  to all interfacing with the Wiki system.
 
 Package: kcemu
-Description-md5: 2c437f9b0edca3b618e35829a390f9ee
-Description-en: KC 85/4 emulator
- KCemu is an emulator for the KC85 homecomputer series and other
- Z80 based microcomputers like Z1013, LC80, Polycomputer 880 and
- BIC A5105. The emulation supports a number of additional hardware,
- e.g. floppy disk drives and extended graphic modules.
- .
- The Debian package does not contain the ROM images required to
- run the emulated machines. Please refer to the README.Debian
- file for more.
- .
- Some alternate keywords for the above:
- KC85, KC87, LC80, Z1013, A5105, Polycomputer 880
- .
- For original programs and general information about the
- emulated computer systems have a look at http://www.kc-club.de/
- and http://www.kc85emu.de/.
-
-Package: kcemu
 Description-md5: bc08d35934d1ee9cbd3513221f2d6788
 Description-en: KC 85/4 emulator
  KCemu is an emulator for the KC85 homecomputer series and other
@@ -1993,20 +1974,6 @@ Description-en: Pepper Flash Player - browser plugin
  This package will download Chrome from Google, and unpack it to make the
  included Pepper Flash Player available for use with Chromium.  The end user
  license agreement is available at Google.
-
-Package: phoronix-test-suite
-Description-md5: e504bf5770439d0c37a92aa9af330882
-Description-en: comprehensive testing and benchmarking platform
- The Phoronix Test Suite is the most comprehensive testing and
- benchmarking platform available for the Linux operating system. This
- software is designed to effectively carry out both qualitative and
- quantitative benchmarks in a clean, reproducible, and easy-to-use
- manner. The Phoronix Test Suite consists of a lightweight processing
- core (pts-core) with each benchmark consisting of an XML-based
- profile with related resource scripts. The process from the benchmark
- installation, to the actual benchmarking, to the parsing of important
- hardware and software components is heavily automated and completely
- repeatable, asking users only for confirmation of actions.
 
 Package: empathy-skype
 Description-md5: 56c06663eba6d5dc9043e8ed3b26eb5a

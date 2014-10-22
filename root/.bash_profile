@@ -1,6 +1,29 @@
 #! /bin/bash
+# ediatable values:
+TIMETOWAIT=1 #time to wait before entering UserMode (in seconds)
+ADMINKEY="K" #shift-k the key to press to switch to AdminMode
+ADMINPASSWORD="LOL" #password for entering AdminMode
+
+### dont touch here below, thanks :)
 
 echo performance > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
+  read -n1 -s -t $TIMETOWAIT -p "Press secret key to enter admin mode:" ans
+  case "$ans" in
+    [$ADMINKEY]|[$ADMINKEY])
+      /usr/bin/clear_console -q
+      echo "Entering Admin mode!"
+      touch /tmp/usermode_root
+      ;;
+    *)
+      /usr/bin/clear_console -q
+      echo "Entering user mode"
+      touch /tmp/usermode_rpitc
+      ;;
+  esac
+fi
+
 
 trap '' 2
 if [ -f /tmp/usermode_rpitc ]
@@ -25,7 +48,7 @@ then
   while read -s -p "Press secret key to enter admin mode:" ans
   do
      case "$ans" in
-      LOL)
+      $ADMINPASSWORD)
         echo "password ok!"
         if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
           exec startx >/dev/null 2>&1

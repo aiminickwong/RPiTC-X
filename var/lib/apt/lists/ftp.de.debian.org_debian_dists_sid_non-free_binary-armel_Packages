@@ -2656,21 +2656,20 @@ SHA1: 7ed1d58aeb02f618275bc3a97179fe4775aa320d
 SHA256: e31478878ff0261fd5e22901e57fbf56fe4f70010f59681149ab1c6f4dbcdd85
 
 Package: gccintro
-Version: 1.0-2
-Installed-Size: 1513
+Version: 1.0-3
+Installed-Size: 1701
 Maintainer: Osamu Aoki <osamu@debian.org>
 Architecture: all
-Depends: dpkg (>= 1.15.4) | install-info
 Description: Introduction to GCC by Brian J. Gough
 Homepage: http://www.network-theory.co.uk/gcc/intro/
 Description-md5: 938f772891b83d7e2be8934f0be7f067
 Section: non-free/doc
 Priority: extra
-Filename: pool/non-free/g/gccintro/gccintro_1.0-2_all.deb
-Size: 883972
-MD5sum: 603970af57821772d50fe3e730086d2c
-SHA1: 3a0c19f67416271a6e87781e3d9c26637f2939ba
-SHA256: 170776200feb7888e1caaab324c5aa540190f4cf621a35e53beea8ff29c5b68c
+Filename: pool/non-free/g/gccintro/gccintro_1.0-3_all.deb
+Size: 840810
+MD5sum: 48112663352a43f41ad17eba27522fdd
+SHA1: c5cd4da3678f31ab10b33e1c6bfa65429fde9156
+SHA256: ac843ce96e6338f10bc62fca075311dafd7efa1b75d8ac9f35bd465123b00969
 
 Package: gdb-doc
 Version: 7.7.1-1
@@ -5080,39 +5079,22 @@ SHA256: c50c8870d9740bea4e09abb395e37d82bef9604969dddb29ef2a24e921bd72eb
 
 Package: nvidia-cg-doc
 Source: nvidia-cg-toolkit
-Version: 3.1.0013-1
-Installed-Size: 41638
+Version: 3.1.0013-2
+Installed-Size: 41081
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Architecture: all
-Replaces: nvidia-cg-toolkit (<< 3.1.0013-1)
-Breaks: nvidia-cg-toolkit (<< 3.1.0013-1)
+Replaces: nvidia-cg-toolkit (<< 3.1.0013-2)
+Breaks: nvidia-cg-toolkit (<< 3.1.0013-2)
 Description: Cg Toolkit - GPU Shader Authoring Language (documentation)
 Homepage: http://developer.nvidia.com/cg-toolkit
 Description-md5: f832b162277bae44fa706176251ceb5b
 Section: non-free/doc
 Priority: extra
-Filename: pool/non-free/n/nvidia-cg-toolkit/nvidia-cg-doc_3.1.0013-1_all.deb
-Size: 12760168
-MD5sum: a9b9a2650bcd5315fa46720be3c918ef
-SHA1: 39ec74b517a3875131356da38f4b79dac067c506
-SHA256: 701121b0f9338861b9f55f05b954270d45e535aa31302805a17e6a3c46264987
-
-Package: libcupti-doc
-Source: nvidia-cuda-toolkit
-Version: 5.5.22-6
-Installed-Size: 174
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Architecture: all
-Description: NVIDIA CUDA Profiler Tools Interface documentation
-Homepage: http://developer.nvidia.com/cuda-profiling-tools-interface
-Description-md5: 0c6d9f272f89c82663423610515dd3eb
-Section: non-free/doc
-Priority: extra
-Filename: pool/non-free/n/nvidia-cuda-toolkit/libcupti-doc_5.5.22-6_all.deb
-Size: 38060
-MD5sum: 4160d2b205b2755f12647164c89cc234
-SHA1: 34546d8d46bc30deb23d5bc1661b4d4da2245f37
-SHA256: 8dd8cdbd157d18d456bbbe5f9cf9a86fee254b681ae128e4e0b22bea54759e85
+Filename: pool/non-free/n/nvidia-cg-toolkit/nvidia-cg-doc_3.1.0013-2_all.deb
+Size: 9445788
+MD5sum: 85b1bf8d01a201093be8e6e668302a77
+SHA1: 762ecdc1080288c4ca5ecfcb154a3782512dd847
+SHA256: 3b1cf2d37718611ec4153656ad0de883f2b59cb7e7d88ddd8f3a175ea3d5a850
 
 Package: libcupti-doc
 Source: nvidia-cuda-toolkit
@@ -5130,23 +5112,6 @@ Size: 48826
 MD5sum: 3da530c1dc2c76350dc84f9e1192e5cd
 SHA1: 4a0bf66fa51164a291b90c7c833f19af1b9956f6
 SHA256: 272417595b8ed6831355651296d3dc9db1e64dc6e4fa450b2f748dde01c6c31f
-
-Package: nvidia-cuda-doc
-Source: nvidia-cuda-toolkit
-Version: 5.5.22-6
-Installed-Size: 115019
-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Architecture: all
-Description: NVIDIA CUDA and OpenCL documentation
-Homepage: http://www.nvidia.com/CUDA
-Description-md5: 1ade4ee74357654b5ef0998d191b1349
-Section: non-free/doc
-Priority: extra
-Filename: pool/non-free/n/nvidia-cuda-toolkit/nvidia-cuda-doc_5.5.22-6_all.deb
-Size: 60899222
-MD5sum: a730980d7bc62b732dd3755dce32eee2
-SHA1: 90426ec96ab726be3c0c899b38052727289c7f0f
-SHA256: 7bb9a7a6f561c1a0df1bacf0267a1e480116e34a1cd554bd776128b6f7d685bb
 
 Package: nvidia-cuda-doc
 Source: nvidia-cuda-toolkit
@@ -5584,6 +5549,23 @@ Size: 638128
 MD5sum: bd907a5c614ccfca8766c003b6319136
 SHA1: 36a0cfb19e0a1e3d95bc8f13b59b2c0aafdce8d6
 SHA256: 58bd347b5789841be8bb4da865d2c82b0172b31b42be9af93a76c7713bdb46a6
+
+Package: phoronix-test-suite
+Version: 5.2.1-1
+Installed-Size: 2575
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Architecture: all
+Depends: php5-cli, php5-gd
+Description: comprehensive testing and benchmarking platform
+Homepage: http://www.phoronix-test-suite.com/
+Description-md5: e504bf5770439d0c37a92aa9af330882
+Section: non-free/utils
+Priority: optional
+Filename: pool/non-free/p/phoronix-test-suite/phoronix-test-suite_5.2.1-1_all.deb
+Size: 454754
+MD5sum: 7f088ca9a1a316e1dcb69799272ff5a2
+SHA1: c5e1b79a180b8add3a0307b26dfc40c807dd4e0f
+SHA256: 68c4463e26a5cdeecbe0d47852a2a9f29cdd0436b811382fe056da84bde66624
 
 Package: php-horde-javascriptminify-jsmin
 Version: 1.0.1-4
@@ -6433,12 +6415,12 @@ SHA1: 92f708a9aecc853b2074e48d3731f5892770f4ba
 SHA256: 6aa90aa57c84b316df22cb7dc375772f1e8b8ea6288466b9430adcf8b397433e
 
 Package: virtualbox-guest-additions-iso
-Version: 4.3.14-1
-Installed-Size: 64411
+Version: 4.3.18-1
+Installed-Size: 56973
 Maintainer: Debian Virtualbox Team <pkg-virtualbox-devel@lists.alioth.debian.org>
 Architecture: all
 Replaces: virtualbox-guest-additions (<< 4.0.6-1~)
-Recommends: virtualbox (>= 4.3.14)
+Recommends: virtualbox (>= 4.3.18)
 Conflicts: virtualbox-2.0, virtualbox-2.1, virtualbox-2.2, virtualbox-3.0, virtualbox-3.1, virtualbox-3.2, virtualbox-4.0, virtualbox-4.1, virtualbox-4.2
 Breaks: virtualbox-guest-additions (<< 4.0.6-1~)
 Description: guest additions iso image for VirtualBox
@@ -6447,11 +6429,11 @@ Description-md5: 11a9eaac064138ec238f7c2ee4c018df
 Tag: role::app-data
 Section: non-free/misc
 Priority: extra
-Filename: pool/non-free/v/virtualbox-guest-additions-iso/virtualbox-guest-additions-iso_4.3.14-1_all.deb
-Size: 45995222
-MD5sum: 9d3c114ae0f4bf845777cd028ba4dbed
-SHA1: ae6cd00fde1a4ade9bc5d584c6662600b87caad5
-SHA256: 3eb3eeaac4755f5e4b457b5af70700d13800b5b91c0f1db3fc3682d46bb901e9
+Filename: pool/non-free/v/virtualbox-guest-additions-iso/virtualbox-guest-additions-iso_4.3.18-1_all.deb
+Size: 39770256
+MD5sum: 66871cba7adceb7e4f40cc47a5f48e30
+SHA1: 89e0be8c6ed6a917b7cf3f65aabacc26e460ea51
+SHA256: 4aad0ebe6986a7a5854aabb732c6b03a24c3c91cb56033fd6e73a3ec5228f92b
 
 Package: libvmtk-dev
 Source: vmtk (1.0.1-3)

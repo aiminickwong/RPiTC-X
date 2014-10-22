@@ -25,4 +25,4 @@ root	ALL=(ALL:ALL) ALL
 # See sudoers(5) for more information on "#include" directives:
 
 #includedir /etc/sudoers.d
-%sudo ALL=(ALL) NOPASSWD: /sbin/shutdown -h now,/sbin/shutdown -r now,/usr/bin/killall,/usr/bin/h264.bin,/usr/sbin/dpkg-reconfigure,/usr/bin/bum,/usr/bin/systemadm,/usr/bin/system-config-printer
+%sudo ALL=(ALL) NOPASSWD: /sbin/shutdown -h now,/sbin/shutdown -r now,/usr/bin/killall,/usr/bin/h264.bin,/usr/sbin/dpkg-reconfigure,/usr/bin/bum,/usr/bin/systemadm,/usr/bin/system-config-printer,/usr/bin/rdp.sh,/usr/bin/dfreerdp

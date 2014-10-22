@@ -4652,15 +4652,6 @@ Description-en: Cg Toolkit - GPU Shader Authoring Language
  .
  This package contains the Cg compiler and other utilities.
 
-Package: libcublas5.5
-Description-md5: 45db8a0178cd23e2bd983749760ce542
-Description-en: NVIDIA CUDA BLAS runtime library
- The Compute Unified Device Architecture (CUDA) enables NVIDIA
- graphics processing units (GPUs) to be used for massively parallel
- general purpose computation.
- .
- This package contains the CUDA BLAS runtime library.
-
 Package: libcublas6.0
 Description-md5: 5d0c77d8f2c8429e53892a3a70d407c4
 Description-en: NVIDIA cuBLAS Library
@@ -4675,15 +4666,6 @@ Description-en: NVIDIA cuBLAS Library
  .
  This package contains the cuBLAS runtime library.
 
-Package: libcudart5.5
-Description-md5: 04039fe955d79d6a7643053c7aaffe45
-Description-en: NVIDIA CUDA runtime library
- The Compute Unified Device Architecture (CUDA) enables NVIDIA
- graphics processing units (GPUs) to be used for massively parallel
- general purpose computation.
- .
- This package contains the runtime library.
-
 Package: libcudart6.0
 Description-md5: d81acb8bf87762012a0607e71f8eff2e
 Description-en: NVIDIA CUDA Runtime Library
@@ -4693,15 +4675,6 @@ Description-en: NVIDIA CUDA Runtime Library
  .
  This package contains the CUDA Runtime API library for high-level CUDA
  programming, on top of the CUDA Driver API.
-
-Package: libcufft5.5
-Description-md5: 4eef387b908002cd6cf9fa8d945590f0
-Description-en: NVIDIA CUDA FFT runtime library
- The Compute Unified Device Architecture (CUDA) enables NVIDIA
- graphics processing units (GPUs) to be used for massively parallel
- general purpose computation.
- .
- This package contains the CUDA FFT runtime library.
 
 Package: libcufft6.0
 Description-md5: 323d8bcdb5ce372c028cb925743b7ad1
@@ -4719,15 +4692,6 @@ Description-en: NVIDIA cuFFT Library
  tested FFT library.
  .
  This package contains the cuFFT runtime library.
-
-Package: libcufftw5.5
-Description-md5: 80c5eba6798073d0dfef5df256c89d60
-Description-en: NVIDIA CUDA FFTW runtime library
- The Compute Unified Device Architecture (CUDA) enables NVIDIA
- graphics processing units (GPUs) to be used for massively parallel
- general purpose computation.
- .
- This package contains the CUDA FFTW runtime library.
 
 Package: libcufftw6.0
 Description-md5: 12b7b2ed306369c1f0fb326c4e9feefa
@@ -4790,17 +4754,6 @@ Description-en: NVIDIA CUDA Profiler Tools Interface documentation
  .
  This package contains the documentation and examples.
 
-Package: libcupti5.5
-Description-md5: 65f2f1bea81316b239224ffd680c5064
-Description-en: NVIDIA CUDA Profiler Tools Interface runtime library
- The CUDA Profiler Tools Interface (CUPTI) enables the creation of
- profiling and tracing tools that target CUDA applications.  CUPTI
- provides a set of APIs targeted at ISVs creating profilers and other
- performance optimization tools. The CUPTI APIs are not intended to be
- used by developers in their CUDA applications.
- .
- This package contains the runtime library.
-
 Package: libcupti6.0
 Description-md5: 65f2f1bea81316b239224ffd680c5064
 Description-en: NVIDIA CUDA Profiler Tools Interface runtime library
@@ -4811,15 +4764,6 @@ Description-en: NVIDIA CUDA Profiler Tools Interface runtime library
  used by developers in their CUDA applications.
  .
  This package contains the runtime library.
-
-Package: libcurand5.5
-Description-md5: 65096ad6fa0522e6e5e89fc21e3c9b47
-Description-en: NVIDIA CUDA Random Numbers Generation runtime library
- The Compute Unified Device Architecture (CUDA) enables NVIDIA
- graphics processing units (GPUs) to be used for massively parallel
- general purpose computation.
- .
- This package contains the CUDA Random Numbers Generation runtime library.
 
 Package: libcurand6.0
 Description-md5: 05f7818fdfa9c23c51a9db2407910cae
@@ -4836,15 +4780,6 @@ Description-en: NVIDIA cuRAND Library
  deterministic algorithm designed to fill an n-dimensional space evenly.
  .
  This package contains the cuRAND runtime library.
-
-Package: libcusparse5.5
-Description-md5: 8b5c0bc101130280c852b365067b7927
-Description-en: NVIDIA CUDA Sparse Matrix runtime library
- The Compute Unified Device Architecture (CUDA) enables NVIDIA
- graphics processing units (GPUs) to be used for massively parallel
- general purpose computation.
- .
- This package contains the CUDA Sparse Matrix runtime library.
 
 Package: libcusparse6.0
 Description-md5: 12835bf1c971845122d660784efe714a
@@ -4868,18 +4803,6 @@ Description-en: NVIDIA cuSPARSE Library
  .
  This package contains the cuSPARSE runtime library.
 
-Package: libnppc5.5
-Description-md5: 371330c0e4596d14c1ae0b854eecfa9c
-Description-en: NVIDIA Performance Primitives core runtime library
- NVIDIA NPP is a library of functions for performing CUDA accelerated
- processing.  The initial set offunctionality in the library focuses on imaging
- and video processing and is widely applicable for developers in these areas.
- NPP will evolve over time to encompass more of the compute heavy tasks in a
- variety of problem domains.  The NPP library is written to maximize
- flexibility, while maintaining high performance.
- .
- This package contains the NVIDIA Performance Primitives core runtime library.
-
 Package: libnppc6.0
 Description-md5: 371330c0e4596d14c1ae0b854eecfa9c
 Description-en: NVIDIA Performance Primitives core runtime library
@@ -4891,19 +4814,6 @@ Description-en: NVIDIA Performance Primitives core runtime library
  flexibility, while maintaining high performance.
  .
  This package contains the NVIDIA Performance Primitives core runtime library.
-
-Package: libnppi5.5
-Description-md5: 15c92e62773876d7bc757fd0992f2491
-Description-en: NVIDIA Performance Primitives for image processing runtime library
- NVIDIA NPP is a library of functions for performing CUDA accelerated
- processing.  The initial set offunctionality in the library focuses on imaging
- and video processing and is widely applicable for developers in these areas.
- NPP will evolve over time to encompass more of the compute heavy tasks in a
- variety of problem domains.  The NPP library is written to maximize
- flexibility, while maintaining high performance.
- .
- This package contains the NVIDIA Performance Primitives runtime library for
- image processing.
 
 Package: libnppi6.0
 Description-md5: 15c92e62773876d7bc757fd0992f2491
@@ -4917,19 +4827,6 @@ Description-en: NVIDIA Performance Primitives for image processing runtime libra
  .
  This package contains the NVIDIA Performance Primitives runtime library for
  image processing.
-
-Package: libnpps5.5
-Description-md5: 24aac8a47c80e58916c189d81d7a7714
-Description-en: NVIDIA Performance Primitives for signal processing runtime library
- NVIDIA NPP is a library of functions for performing CUDA accelerated
- processing.  The initial set offunctionality in the library focuses on imaging
- and video processing and is widely applicable for developers in these areas.
- NPP will evolve over time to encompass more of the compute heavy tasks in a
- variety of problem domains.  The NPP library is written to maximize
- flexibility, while maintaining high performance.
- .
- This package contains the NVIDIA Performance Primitives runtime library for
- signal processing.
 
 Package: libnpps6.0
 Description-md5: 24aac8a47c80e58916c189d81d7a7714
@@ -5054,13 +4951,14 @@ Description-en: NVIDIA Visual Profiler for CUDA and OpenCL
  applications.
 
 Package: libcuda1
-Description-md5: 85ad4b0af7af32c49aa450ba8b0e0fdf
-Description-en: NVIDIA CUDA runtime library
+Description-md5: 289652f836a845eca9439a8866500797
+Description-en: NVIDIA CUDA Driver Library
  The Compute Unified Device Architecture (CUDA) enables NVIDIA
  graphics processing units (GPUs) to be used for massively parallel
  general purpose computation.
  .
- This package contains the driver specific runtime library.
+ This package contains the CUDA Driver API library for low-level CUDA
+ programming.
  .
  Supported NVIDIA devices include GPUs starting from GeForce 8 and Quadro FX
  series, as well as the Tesla computing processors.
@@ -5071,11 +4969,11 @@ Description-en: NVIDIA CUDA runtime library
  This will provide nvidia-kernel-340.46.
 
 Package: libcuda1-i386
-Description-md5: 98d7325584a427657b78085af9c2ce21
+Description-md5: 38f2006028d83229e9f25c808d5ceff3
 Description-en: NVIDIA CUDA 32-bit runtime library
  This metapackage helps the automatic installation of the 32-bit NVIDIA CUDA
- library when installing libcuda1 on amd64 with foreign architecture i386
- enabled.
+ library when installing libcuda1 on amd64 with foreign
+ architecture i386 enabled.
 
 Package: libegl1-nvidia
 Description-md5: d32e9c0345f1a0be484cc280ac879c7e
@@ -6004,6 +5902,20 @@ Description-en: large subroutine library for plotting scientific data
  manipulation, etc. are well supported. Interactive routines are
  included. Both a C and a FORTRAN library are present. See
  http://astro.caltech.edu/~tjp/pgplot/ for documentation.
+
+Package: phoronix-test-suite
+Description-md5: e504bf5770439d0c37a92aa9af330882
+Description-en: comprehensive testing and benchmarking platform
+ The Phoronix Test Suite is the most comprehensive testing and
+ benchmarking platform available for the Linux operating system. This
+ software is designed to effectively carry out both qualitative and
+ quantitative benchmarks in a clean, reproducible, and easy-to-use
+ manner. The Phoronix Test Suite consists of a lightweight processing
+ core (pts-core) with each benchmark consisting of an XML-based
+ profile with related resource scripts. The process from the benchmark
+ installation, to the actual benchmarking, to the parsing of important
+ hardware and software components is heavily automated and completely
+ repeatable, asking users only for confirmation of actions.
 
 Package: php-horde-javascriptminify-jsmin
 Description-md5: aabab1610caf25173ba04a289d7f4703

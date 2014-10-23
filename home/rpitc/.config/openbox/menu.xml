@@ -68,6 +68,9 @@
   <item label="Change Locales">
     <action name="Execute"><command>lxterminal -e "sudo dpkg-reconfigure locales"</command></action>
   </item>
+  <item label="Change TimeZone">
+    <action name="Execute"><command>lxterminal -e "sudo dpkg-reconfigure tzdata"</command></action>
+  </item>
   <item label="Service Management">
     <action name="Execute"><command>gksudo /usr/bin/bum</command></action>
   </item>
